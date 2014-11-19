@@ -2,6 +2,7 @@
 layout: post
 title: "Convert json to a useful ruby object"
 date: 2014-11-19 16:00:00
+comments: true
 categories: ruby rails json oop tips tricks
 ---
 In a quest to find the absolute easiest way to create a useable object from a json doc, I read some of the ruby stdlib documentation and like so many issues I've come across, I quickly discovered that the briliant ruby community already had a simple solution for me.
