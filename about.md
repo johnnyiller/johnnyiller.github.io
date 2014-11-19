@@ -4,8 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello Internet.  Trying this blog thing again.  Figured it would be useful to transfer some of my thoughts an ideas to anyone that wants to know about them.  On this blog, i'll try to stick to 3 main subjects:  Food, Health & Fitness, and writing software.  Some useful links if you'd like to check out my work or contact me can be found at the bottom of the page.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
