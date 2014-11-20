@@ -13,7 +13,7 @@ Some time has passed since my last job search, and I'm now back in the roll of C
 
 I have come to this conclusion, by finally pinning down, just exactly what the role of a CTO should be and I believe it to be this:  A CTO's primary job role is to enable the company to advance it's technical and business goals by removing road blocks for his technical staff (*himself included*).  Which basically means a CTO is in charge of making developers happier and more productive.  Without developer happiness productivity plummets and nothing gets done making for a pretty ineffective team.
 
-The reason the a non-programming CTO is a joke is because they can't possible understand the pain points of software development unless they are using the tools that their team is using (tools that require programming).  This is another case of [eat your own dog food](http://en.wikipedia.org/wiki/Eating_your_own_dog_food).  In this case the product producer is the CTO and the customer is their development team.  
+The reason the a non-programming CTO is a joke is because he can't possible understand the pain points of software development unless they are using the tools that their team is using (tools that require programming).  This is another case of [eat your own dog food](http://en.wikipedia.org/wiki/Eating_your_own_dog_food).  In this case the product producer is the CTO and the customer is their development team.  
 
 So next time you interview for a company and the CTO is not involved in the programming effort, take that to mean that the you will probably have a little more misery in your life than would otherwise be necessary.
 
