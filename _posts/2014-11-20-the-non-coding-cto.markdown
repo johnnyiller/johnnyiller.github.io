@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Non Coding CTO?"
-date: 2014-11-19 16:00:00
+date: 2014-11-20 16:00:00
 comments: true
 categories: technical leadership infrastructure philosophy
 ---
