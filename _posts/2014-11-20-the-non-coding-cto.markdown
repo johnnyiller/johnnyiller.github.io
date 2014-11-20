@@ -7,7 +7,7 @@ categories: technical leadership infrastructure philosophy
 ---
 About 2 years ago I began going on interviews at various software development firms in the Greater Boston Area. I was specifically looking to step down from my position as CTO into a more dedicated software development role.  
 
-After interviewing with several companies I noticed that few of them would praise their CTO's for being able to get into the code base and contribute.  Stating that at previous companies they had worked for this had not been the case. I left feeling confused, like maybe I wasn't really a CTO because I was actually coding instead of organizing meetings all day and discussing strategic direction.
+After interviewing with several companies I noticed that a few of them would praise their CTO's for being able to get into the code base and contribute.  Stating that at previous companies they had worked for this had not been the case. I left feeling confused, like maybe I wasn't really a CTO because I was actually coding instead of organizing meetings all day and discussing strategic direction.
 
 Some time has passed since my last job search, and I'm now back in the roll of CTO again. I have decided without a doubt that a CTO that doesn't write code is not a CTO worth having.  That's right, if getting your hands dirty and fixing those hard to fix issues are beneath you, then you don't deserve the title. 
 
