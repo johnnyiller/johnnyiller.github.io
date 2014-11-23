@@ -23,8 +23,8 @@ module Silence
   # here is the main functionality.
   module ClassMethods
     def silence_exceptions_for(*methods)
-      methods.each do |method|
-        silencer = Module.new do
+      silencer = Module.new do
+        methods.each do |method|
           # define method and pass all arguments along for the ride.
           define_method method do |*args|
             begin 
@@ -37,8 +37,8 @@ module Silence
             end
           end
         end
-        prepend silencer 
       end
+      prepend silencer 
     end
   end
 
