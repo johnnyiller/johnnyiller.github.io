@@ -3,6 +3,7 @@ layout: post
 title: "Have we learned nothing about the way we deploy software "
 date: 2014-12-3 18:00:00
 comments: true
+categories: software architecture
 ---
 
 Motiviated by [this article](http://techcrunch.com/2014/12/02/android-5-0-currently-runs-on-fewer-than-0-1-of-handsets/?ncid=rss&cps=gravity) on techcrunch which states that mobile fragmentation is turning into a nightmare.  I want to ask the platform developers out there.  Have you learned nothing in the past 10 years?  
