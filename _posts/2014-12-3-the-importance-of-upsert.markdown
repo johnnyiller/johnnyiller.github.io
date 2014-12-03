@@ -6,7 +6,7 @@ comments: true
 categories: api architecture design
 ---
 
-I've had the good fortune of being able to work with a few NoSql databases lately.  One feature that they all share in common is that they provide a really each way to perform an upsert.  An upsert is where you insert a new entry or record is one has not been create else if one has been created you simply update what's already there with the new values.  This is a nice clever trick to remove logic from the application and save some code in the process.  Using mongo db, you code might look like the following, without upsert.
+I've had the good fortune of being able to work with a few NoSql databases lately.  One feature that they all share in common is that they each provide a really easy way to perform an upsert.  An upsert is where you insert a new entry or record is one has not been create else if one has been created you simply update what's already there with the new values.  This is a nice clever trick to remove logic from the application and save some code in the process.  Using mongo db, you code might look like the following, without upsert.
 
 {% highlight ruby %}
 
