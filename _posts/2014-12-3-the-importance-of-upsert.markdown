@@ -62,8 +62,9 @@ If one reads the [API documention](http://developer.constantcontact.com/docs/con
 Looking at the [API documention](http://developer.constantcontact.com/docs/contacts-api/contacts-resource.html?method=PUT) for updating a contact one can see that you can not even update a user based on any other attribute other than the ID of the contact.  Clearly upserting doesn't work in this case because I have to find the id anyway in order to update the data.
 
 This is wrong on a couple of levels 
-1. email addresses must be unique as established earlier, yet I need a special id to update one?  That does not follow how you would expect an api to work.
-2. I have no way for changine just a piece of the data even if I have the contact id.  I need to override the contact.  This means I have to first pull down the existing contacts data merge in my new data in code and then send back the new merged data.  A lot of work that should be done by the API provider and not the API consumer.
+
+1.  email addresses must be unique as established earlier, yet I need a special id to update one?  That does not follow how you would expect an api to work.
+2.  I have no way for changine just a piece of the data even if I have the contact id.  I need to override the contact.  This means I have to first pull down the existing contacts data merge in my new data in code and then send back the new merged data.  A lot of work that should be done by the API provider and not the API consumer.
 
 The whole point of this post is to beg the API developers of the world (especially public companies) to please consider how an application would actually go about integrating with your API and to develop the functionality that moves the data management to the API and away from the client application. One way to move in the right direction is to allow upsert capability.  If databases are doing it then so should your API's. 
 
