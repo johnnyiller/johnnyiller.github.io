@@ -14,7 +14,7 @@ Enter google chrome.  As far as I know Google's Chrome browser was the first maj
 
 Now, I ask again, have we learned nothing?  Why is upgrading your OS on your phone or computer optional?  Or at least why don't OS developers do the update automatically unless you specifically turn it off. Most people when it comes to technology are simply too ignorant or lazy to update their software.  Why are OS developers still making it optional.  For the love of god somebody please tell google, microsoft, and apple to stop this nonsense and just update the users software.  And for those of you screaming, "we can't do that, it will break my applications". If an application stops working then it is up to the application developer to fix the broken software (assuming the os developer gives ample notice about deprecations), not the user to put their entire upgrade cycle on hold.
 
-One last thing, microsoft this is for you.  Stop charging for operating systems nobody else does it, time to get on board.
+One last thing, microsoft this is for you.  Stop charging for operating systems !!! Nobody else does it, time to get on board.
 
 
 
