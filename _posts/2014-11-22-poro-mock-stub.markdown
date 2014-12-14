@@ -6,7 +6,7 @@ comments: true
 categories: ruby rails testing minitest poro mock_stub
 ---
 
-Let me start by saying I've never been a huge fan of rspec.  I think the magic it provides shields new developers from learning and understanding how ruby works, which is partly what unit testing aims to offer in the first place.  Over the years I've decided that if a mock or a stub is necessary to test a piece of code that I would simply write it using plain old ruby and where necessary using using Minitest::Mock. 
+Let me start by saying I've never been a huge fan of rspec.  I think the magic it provides shields new developers from learning and understanding how ruby works, learning and understanding is partly what unit testing aims to offer in the first place.  Over the years I've decided that if a mock or a stub is necessary to test a piece of code that I would simply write it using plain old ruby and where necessary using using Minitest::Mock. 
 
 The easiest way to test your code is to design it with with testability as a concern.  To be clear; if you can write code that is *clear, concise, and testable that's great*.  However, you should not sacrifice clear and concise code just to make it testable. 
 
