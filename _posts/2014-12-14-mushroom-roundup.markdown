@@ -10,5 +10,5 @@ So along with writing software and expressing my opinions about systems architec
 ## Golden Chanterelles White Mountains NH
 I found these beauties with two of my good friends after a fairly rough night in the woods.  We camped out overnight in the back woods with heavy rain and thunder storms for most of the night.  The only good thing that came of it was that these golden beuties were fruting like crazy the next morning.  We could have taken 10 times the amount we took but we didn't have enough containers.  Next time...
 
-![Golden Chanterelles White Mountains NH]({{ site.url }}/assets/chanterelles_white_mountains_early_spring.jpg)
+![Golden Chanterelles White Mountains NH]({{ site.url }}/assets/mushroom_roundup/chanterelles_white_mountains_early_spring.jpg)
 
