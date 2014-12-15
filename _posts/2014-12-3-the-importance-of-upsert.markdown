@@ -21,7 +21,7 @@ docs = coll.find({"email"=>"addr@example.com"})
 if docs.size > 0
   coll.update({"email" => "addr@example.com"}, {"age" => 24})
 else
-  coll.insert({"email" => "addr@example.com", "enabled" => 24}) 
+  coll.insert({"email" => "addr@example.com", "age" => 24}) 
 end
 
 {% endhighlight %}
