@@ -13,7 +13,7 @@ I found these beauties with two of my good friends after a fairly rough night in
 ![Golden Chanterelles White Mountains NH]({{ site.url }}/assets/mushroom_roundup/chanterelles_white_mountains_early_spring.jpg)
 
 The omelette I made with my share.  Eggs, parsley, gruyere cheese, and of course lots of chanterelles.
-![Golden Chanterelles omelette]({{ site.url }}/assets/mushroom_roundupanterelles_omelete_next_day.jpg)
+![Golden Chanterelles omelette]({{ site.url }}/assets/mushroom_roundup/mushroom_roundupanterelles_omelete_next_day.jpg)
 
 ### Chicken of the woods, MA
 Here we have some laetiporus sulphureus I found in the woods near my house.  Cooked in butter and salted nice made for a tasty snack.
