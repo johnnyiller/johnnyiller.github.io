@@ -11,7 +11,7 @@ I've had the good fortune of being able to work with a few NoSql databases latel
 {% highlight ruby %}
 
 client = MongoClient.new
-db = client['example-db] 
+db = client['example-db'] 
 coll = db['example-collection']
 # assuming you don't know whether or not you have
 # data in the collection, you need to query to find out
