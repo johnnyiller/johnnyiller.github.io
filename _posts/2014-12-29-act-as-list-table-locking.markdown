@@ -82,7 +82,7 @@ Of course doing things this way would require you to manually manage the song_or
 Another option is to replace act_as_list with [ranked-model](https://github.com/mixonic/ranked-model).  Ranked-model is a more modern version of acts_as_list that goes out of it's way to avoid hitting the database when it doesn't need too.  This sounds like my kind of plugin.  I think I'm going to replace my acts_as_list dependent models with this gem.  After completing the migration I'll write another post outlining any difficulties or interesting data migration steps necessary.  Additionally I'll monitor the database chatter to see if we are getting a reduction as a percentage of site traffic.
 
 ### update
-I actually ended up using the serialized column approach.  After looking at the ranked-model project I decided that it wasn't being actively maintained to my standards so I went for the simpler solution until I find a better project or make my own abstraction.
+I actually ended up using the serialized column approach.  After looking at the ranked-model project I decided that it wasn't being actively maintained to my standards so I went for the simpler solution until I find a better project or make my own abstraction.  One issue with my solution is that you can't use the normal ActiveRecord scoping mechanisms which means pagination won't work well.  So generally speaking this solution would not be appropriate if you expected a really long list.  Fortunately for my application I can't imagine an album with more than 100 or so songs so this should work just fine.
 
 
 
