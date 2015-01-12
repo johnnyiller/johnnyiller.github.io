@@ -28,7 +28,7 @@ end
 
 # example usage 
 driver.scroll_by_selector("#my_lower_on_the_page_div")
-element = driver.find_element(:id, my_lower_on_the_page_div)
+element = driver.find_element(:id, "my_lower_on_the_page_div")
 element.click
 
 {% endhighlight %}
