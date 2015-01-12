@@ -20,7 +20,7 @@ This is because the automatic scrolling used by driver.find_element and similar 
 
 {% highlight ruby %}
 
-# assuming you have already create an instance of a Selenium WebDriver 
+# assuming you have already created an instance of a Selenium WebDriver 
 
 def driver.scroll_by_selector(selector)
   self.execute_script("window.scrollBy(0,document.querySelector('#{selector}').getBoundingClientRect().top);")
