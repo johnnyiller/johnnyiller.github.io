@@ -6,7 +6,7 @@ comments: true
 categories: ruby rails selenium fixedmenu bootstrap
 ---
 
-Recently we decided to implement [our](http://www.musicxray.com) website UI using bootstrap 3 as a base.  Along with this conversion came some really nece menus on the header and footer of the site.  I didn't think that this change would cause too many issues with our Selenium based testing.  Generally speaking, it didn't, except for one issue.  The menu is fixed, so when the selenium driver tries to click on element below the fold of the page it encounters the following error.
+Recently we decided to implement [our](http://www.musicxray.com) website UI using bootstrap 3 as a base.  Along with this conversion came some really nice menus on the header and footer of the site.  I didn't think that this change would cause too many issues with our Selenium based testing.  Generally speaking, it didn't, except for one issue.  The menu is fixed, so when the selenium driver tries to click on element below the fold of the page it encounters the following error.
 
 {% highlight bash %}
 Selenium::WebDriver::Error::UnknownError:         unknown error: Element is not clickable at point (507, 684). Other element would receive the click: 
