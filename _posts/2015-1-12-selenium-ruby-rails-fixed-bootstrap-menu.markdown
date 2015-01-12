@@ -19,9 +19,9 @@ Ugly business
 This is because the automatic scrolling used by driver.find_element and similar method calls only scrolls the page up just high enough to bring the button or link into the containing window.  I'm sure there is a better solution which probably involves monkey patching the ruby driver but for the time being (we have to launch in 2 days and I need my integration tests working) I wrote the following method.
 
 {% highlight ruby %}
-  def scroll_by_selector(driver, selector)
-    driver.execute_script("window.scrollBy(0,document.querySelector('#{selector}').getBoundingClientRect().top);")
-  end
+def scroll_by_selector(driver, selector)
+  driver.execute_script("window.scrollBy(0,document.querySelector('#{selector}').getBoundingClientRect().top);")
+end
 {% endhighlight %}
 
 This manual scrolling brings the element into view so that we no longer get the error, calling this code before calling driver.find_element solved my problem, hopefully it helps you as well.  Let me know in the comments if this works for you.
