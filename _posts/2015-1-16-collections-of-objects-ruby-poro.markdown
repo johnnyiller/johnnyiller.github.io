@@ -53,7 +53,7 @@ puts "There are #{animal_collection.how_many_with_four_legs?} animals with four 
 
 {% endhighlight %}
 
-It's worth noting that you could subclass your AnimalCollection Class from Array.  However I would consider this an antipattern as the mixin offer a clean interface for making a collection without altering the the objects class hierarchy. 
+It's worth noting that you could subclass your AnimalCollection Class from Array.  However I would consider this an antipattern as the mixin offers a clean interface for making a collection without altering the the objects class hierarchy. 
 
 If you agree disagree or otherwise found this article useful, then please feel free to leave a comment and i'll be sure to get back to you.
 
