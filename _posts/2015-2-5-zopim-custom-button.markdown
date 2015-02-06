@@ -10,7 +10,7 @@ Recently, I was charged with integrating [zopim](https://www.zopim.com) with [mu
 
 That said, if you have a design that does not allow for an ever present chat widget located in one of the four corners of you site, then you will have to use the [zopim api](https://api.zopim.com/files/meshim/widget/controllers/LiveChatAPI-js.html) and implement your own button.
 
-![This is what we are going for](https://drive.google.com/folderview?id=0B6VpqbAXvH1qUVIxd3c5MzFuUlU&usp=sharing)
+![This is what we are going for]({{ site.url }}/assets/zopim_button_screenshot/screenshot.jpg)
 
 Notice the button on the right side of the page.  It fits with the theme of the site and is in a location of our choosing with an icon of our choosing.  The html markup to achieve this button on our site is something like the following.
 
