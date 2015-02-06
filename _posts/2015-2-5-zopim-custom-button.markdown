@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zopim custom button"
-date: 2014-11-19 16:00:00
+date: 2015-2-5 16:00:00
 comments: true
 categories: zopim javascript chat customer service
 ---
