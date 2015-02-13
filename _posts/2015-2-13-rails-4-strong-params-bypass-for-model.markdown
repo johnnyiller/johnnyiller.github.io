@@ -43,9 +43,10 @@ class Post < ActiveRecord::Base
   # fields in db..  body, title
 end
 # we could then get an instace of the model with our parameters like this
-post = Post.new(body: "my small body", title: "my title")
+post = Post.new_unsafe(body: "my small body", title: "my title")
 post.save
 
 {% endhighlight %}
 
+Just one quick word of caution, in general you should not need to create your objects in this manner.  However, if you do, you now have a rasonable way to do it.
 
