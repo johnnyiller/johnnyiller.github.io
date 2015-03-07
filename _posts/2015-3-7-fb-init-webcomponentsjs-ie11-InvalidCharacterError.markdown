@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FB.init webcomponentsjs ie11 InvalidCharacterError"
+title: "FB.init webcomponents.js ie11 InvalidCharacterError"
 date: 2015-3-7 16:00:00
 comments: true
 categories: facebook sdk webcomponents ie11 bug 
