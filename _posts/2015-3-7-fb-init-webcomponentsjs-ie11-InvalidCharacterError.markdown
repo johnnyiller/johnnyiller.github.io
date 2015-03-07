@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FB.init webcomponentsjs ie11 InvalidCharacterError""
+title: "FB.init webcomponentsjs ie11 InvalidCharacterError"
 date: 2015-3-7 16:00:00
 comments: true
 categories: facebook sdk webcomponents ie11 bug 
@@ -10,7 +10,7 @@ categories: facebook sdk webcomponents ie11 bug
 
 Everything seemed to be going well until we included the facebook sdk on the page.  Just placing these two libraries on the page leads to following error.
 
-{% highlight bash %}
+{% highlight javascript %}
 SCRIPT5022: InvalidCharacterError
 File: webcomponents.js, Line: 3940, Column: 9
 {% endhighlight %}
