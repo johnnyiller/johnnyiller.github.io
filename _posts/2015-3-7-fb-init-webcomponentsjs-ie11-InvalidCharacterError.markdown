@@ -30,7 +30,7 @@ if (hasNamePropertyBug()) {
 }
 {% endhighlight %}
 
-The problem with the code comes from trying to create the iframe element using an html tag literal.  With a proper version of createElement, this operation is no longer supported, thus the error.  To fix this issue, I load the following code immediately following webcomponents.js
+The problem with the code comes from trying to create the iframe element using an html tag literal.  With a proper version of createElement, this operation is [no longer supported](http://www.w3schools.com/jsref/met_document_createelement.asp), thus the error.  To fix this issue, I load the following code immediately following webcomponents.js
 
 {% highlight javascript %}
 
