@@ -54,6 +54,6 @@ The problem with the code comes from trying to create the iframe element using a
 
 Basically we wrap the document.createElement function calling the existing version under normal circumstances and our custom code to compensate for facebook's shitty code when needed.  Notice how we make a dummy element and set the innerHTML.  This is done so that we don't have to acutally try and parse html code with regular expressions, which can be difficult, we then find the element we are looking for and return it.
 
-I understand that this code is a bit ugly, but desperate times call for desperate measures.  Please feel free to comment if you find this solution helpful.  I know that having this article availible would have saved me quite a bit of time.
+I understand that this code is a bit ugly, but desperate times call for desperate measures.  Please feel free to comment if you find this solution helpful.  I know that having this article available would have saved me quite a bit of time.
 
 
