@@ -8,7 +8,7 @@ categories: facebook sdk webcomponents ie11 bug
 
 [music xray](https://www.musicxray.com) is in the process of a major overhaul to both our backend and frontend technologies.  One move we decided to make was to start using webcomponents.  As you may know, web components is not fully supported on every browser.  That's where [webcomponents.js](https://github.com/webcomponents/webcomponentsjs) comes in.  Webcomponents.js attempts to polyfill old browsers until they implement the web components specification.
 
-Everything seemed to be going well until we included the facebook sdk on the page.  Just placing these two libraries on the page leads to following error.
+Everything seemed to be going well until we included the facebook sdk on the page.  Just placing these two libraries on the page leads to following error using Internet Explorer 11.
 
 {% highlight javascript %}
 SCRIPT5022: InvalidCharacterError
