@@ -6,7 +6,7 @@ comments: true
 categories: ruby retry timeout
 ---
 
-The following post is mostly code as I believe that the code and tests are self explanatory.  The following code was written in an attempt to make API calls more resilient before failing.  Basically the idea is that 3rd party API's can have intermittent network issues and in production you'd be better off re-trying your code once or twice before completely failing and having your users see a 503. Really whenever you are making a call over the nextwork, it's probably good to wrap your code in something like the following.  Tests are provided to help the user understand how to use the utility function.
+The following post is mostly code, but hopefully is still easy to follow.  The inspiration for this little utility is is that 3rd party API's can have intermittent network issues and in production you'd be better off re-trying your code once or twice before completely failing and having your users see a 503 or not receiving a notification or something similarly infuriating. Whenever you are making a call over the nextwork, it's probably good to wrap your code in something like the following.  Tests are provided to help the user understand how to use the utility function. 
 
 {% highlight ruby %}
 
@@ -139,5 +139,7 @@ class TestUtilities < MiniTest::Test
 
 end
 {% endhighlight %}
+
+One word of caution.  When using code like this you have to be careful about putting too much code inside of your block, the reason is that you will have tendency to partially mutate the state of your data structures. For this reason it may be benificial to operate on copies of objects and only commit the changes if no errors are raised.
 
 If you find this function at all useful please comment below...
