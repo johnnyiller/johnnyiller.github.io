@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby retry with timeout"
-date: 2015-1-12 16:00:00
+date: 2015-3-14 16:00:00
 comments: true
 categories: ruby retry timeout
 ---
