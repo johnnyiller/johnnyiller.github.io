@@ -8,7 +8,7 @@ categories: jquery sequential javascript ajax
 
 This is just a quick tip for anyone searching the interwebs wondering how you can make a bunch of ajax calls on a page one right after another without turning async to false on the ajax request.  The problem you see is that if you call $.ajax directly in a for loop or as part of an each statement you will trigger a crap pile of ajax requests all at once.   In theory this is a good way to do things.  But in practice this could lead to one or more page loads consuming a large amount of server resources and slowing down your app for other users.  
 
-Enter jQuery Deferred's. The following code outlines the basic jquery based code that would be required for in order to execute the ajax requests sequentially:
+Enter jQuery Deferred's. The following code outlines the jquery based code that would be required in order to execute the ajax requests sequentially:
 
 
 {% highlight javascript %}
