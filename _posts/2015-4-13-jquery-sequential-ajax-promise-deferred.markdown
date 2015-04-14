@@ -32,8 +32,8 @@ var urls = ["http://www.example.com/url1","http://www.example.com/url2","http://
 
 // this will trigger the first callback.
 var base = $.when({});
-$.each(urls, function(){
-  base = base.then(getAjaxDeferred(this));
+$.each(urls, function(index, url){
+  base = base.then(getAjaxDeferred(url));
 });
 
 {% endhighlight %}
