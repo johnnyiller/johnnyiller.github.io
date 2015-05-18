@@ -6,7 +6,7 @@ comments: true
 categories: ruby metaprogramming 
 ---
 
-I have been doing some mentoring for [the firehose project](http://www.thefirehoseproject.com/).  Recently my student was very puzzled as to why she could access an instance variable in a view but not access them in a model after declaring them in a controller.  As a person who has been developing rails for over 7 years, I really don't give too much thought to these things and why that might seem odd to a new student.  Long story short is that rails doesn't try to pass instance variables to models (for good reason) so it is not done.
+I have been doing some mentoring for [the firehose project](http://www.thefirehoseproject.com/).  Recently my student was a bit puzzled as to why she could access an instance variable in a view but not access them in a model after declaring them in a controller.  Long story short is that rails doesn't try to pass instance variables to models (for good reason) so it is not done.
 
 To further explain and shed some light on what I think rails is doing behind the scenes, I decided to whip up this quick example of how one might go about shuffling instance variables around.  
 
