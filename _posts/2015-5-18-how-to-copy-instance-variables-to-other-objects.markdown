@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to pass instance variable from one object to another."
-date: 2015-1-18 16:00:00
+date: 2015-5-18 16:00:00
 comments: true
 categories: ruby metaprogramming 
 ---
