@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Lots of buttons with - addEventListener</title>
+    <style>
+      div {
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 20px;
+      }
+      
+    </style>
+    <script>
+      var container = document.querySelector('#container');
+      for(var i=0; i < 1000; i++){
+        (function(button_number){
+          var btn = document.createElement('div');
+          btn.innerHTML = "button number " + button_number;
+          btn.addEventListener('click', function(){
+            console.log("clicked the button number " + button_number);
+          });
+          container.appendChild(btn);
+
+         })(i);
+      }
+    </script>
+  </head>
+  <body>
+
+    <h4>Example page javascript Events &mdash; addEventListener</h4>
+
+    <div id="container">
+    </div>
+
+  </body>
+</html>
