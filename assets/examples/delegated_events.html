@@ -19,14 +19,19 @@
     <script>
 
       var container = document.querySelector('#container');
-      container.addEventListener('click', function(){
-        console.log(arguments);
+      container.addEventListener('click', function(evt){
+        evt.target['handleEvent'].apply(evt.target, arguments);
       });
       for(var i=0; i < 100000; i++){
         (function(button_number){
           var btn = document.createElement('div');
           btn.innerHTML = "button number " + button_number;
+          btn.handleEvent = function(){
+            alert('my button was clicked' + button_number);
+          };
           container.appendChild(btn);
+          
+
          })(i);
       }
 
