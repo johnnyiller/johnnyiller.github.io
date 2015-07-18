@@ -12,22 +12,21 @@
   </head>
   <body>
 
-    <h4>Example page javascript Events &mdash; addEventListener</h4>
+    <h4>Example page javascript Events &mdash; Delegation</h4>
 
     <div id="container">
     </div>
     <script>
 
       var container = document.querySelector('#container');
+      container.addEventListener('click', function(){
+        console.log(arguments);
+      });
       for(var i=0; i < 100000; i++){
         (function(button_number){
           var btn = document.createElement('div');
           btn.innerHTML = "button number " + button_number;
-          btn.addEventListener('click', function(){
-            alert("clicked the button number " + button_number);
-          });
           container.appendChild(btn);
-
          })(i);
       }
 
