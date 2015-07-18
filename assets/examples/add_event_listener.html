@@ -109,7 +109,7 @@
       function triggerSingleButtonDelegationTest(){
 
         container = document.querySelector('#container');
-        container.addEventListener('click', function(){
+        container.addEventListener('click', function(evt){
             var funcs = evt.target['clickFunctions']; 
             for(var i = 0; i < funcs.length; i++){
               funcs[i].apply(evt.target, arguments);
