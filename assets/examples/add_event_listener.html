@@ -31,6 +31,12 @@
       Trigger lots of listeners via single button.
     </button>
     <br/><br/>
+    
+    <button id="single_button_delegation">
+      Trigger lots of delegated functions via single button..
+    </button>
+    <br/><br/>
+
 
     <br/><br/>
 
@@ -100,13 +106,54 @@
         container.appendChild(btn);
       }
 
+      function triggerSingleButtonDelegationTest(){
+
+        container = document.querySelector('#container');
+        container.addEventListener('click', function(){
+            var funcs = evt.target['clickFunctions']; 
+            for(var i = 0; i < funcs.length; i++){
+              funcs[i].apply(evt.target, arguments);
+            }
+        });
+        var btn = document.createElement('div');
+        btn.innerHTML = "only one button";
+        var functionArray = [];
+        functionArray.push(function(){
+            var time = new Date();
+            console.log('end click function ' + time.toString());
+        });
+
+        amt = document.querySelector('#amount');
+        val = parseInt(amt.value);
+        for(var i=0; i < val; i++){
+          (function(){
+            functionArray.push(function(){ return false;});
+          })();
+        }
+
+        functionArray.push(function(){
+            var time = new Date();
+            console.log('end click function ' + time.toString());
+        });
+
+        btn.clickFunctions = functionArray;
+
+        container.appendChild(btn);
+
+      }
+      
+      //triggerSingleButtonAddEventListenerTest
+      
+
       add_event_listener_button = document.querySelector('#trigger_add_event_listener');
       trigger_delegated_lots_button = document.querySelector('#trigger_delegated_lots_buttons');
       single_button_lots_listeners = document.querySelector('#single_button_lots_listeners');
+      single_button_delegation = document.querySelector('#single_button_delegation');
 
       add_event_listener_button.addEventListener('click', triggerAddEventListenerTest);
       trigger_delegated_lots_button.addEventListener('click', triggerDelegatedLotsButtons);
       single_button_lots_listeners.addEventListener('click', triggerSingleButtonAddEventListenerTest);
+      single_button_delegation.addEventListener('click', triggerSingleButtonDelegationTest);
 
 
        
