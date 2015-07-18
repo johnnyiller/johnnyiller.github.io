@@ -45,6 +45,7 @@
     <script>
       function triggerAddEventListenerTest(){
         container = document.querySelector('#container');
+        inner_cont = document.createElement('div');
         amt = document.querySelector('#amount');
         val = parseInt(amt.value);
         for(var i=0; i < val; i++){
@@ -54,14 +55,16 @@
             btn.addEventListener('click', function(){
               alert("clicked the button number " + button_number);
             });
-            container.appendChild(btn);
+            inner_cont.appendChild(btn);
 
           })(i);
         }
+        container.appendChild(inner_cont);
       }
 
       function triggerDelegatedLotsButtons(){ 
         container = document.querySelector('#container');
+        inner_cont = document.createElement('div');
         container.addEventListener('click', function(evt){
           evt.target['handleEvent'].apply(evt.target, arguments);
         });
@@ -76,11 +79,10 @@
             btn.handleEvent = function(){
               alert('my button was clicked' + button_number);
             };
-            container.appendChild(btn);
-            
-
+            inner_cont.appendChild(btn);
           })(i);
         }
+        container.appendChild(inner_cont);
       }
 
       function triggerSingleButtonAddEventListenerTest(){
