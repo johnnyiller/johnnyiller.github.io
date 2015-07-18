@@ -19,12 +19,17 @@
     <button id="trigger_add_event_listener">
       Trigger Add Event Listener Lots of buttons
     </button>
+    <br/>
+    <br/>
+
+    <button id="trigger_delegated_lots_buttons">
+      Trigger via delegation with lots of buttons. 
+    </button>
 
     <div id="container"></div>
 
     <script>
       function triggerAddEventListenerTest(){
-        
         container = document.querySelector('#container');
         amt = document.querySelector('#amount');
         val = parseInt(amt.value);
@@ -41,8 +46,36 @@
         }
       }
 
+      function triggerDelegatedLotsButtons(){ 
+        container = document.querySelector('#container');
+        container.addEventListener('click', function(evt){
+          evt.target['handleEvent'].apply(evt.target, arguments);
+        });
+
+        amt = document.querySelector('#amount');
+        val = parseInt(amt.value);
+
+        for(var i=0; i < val; i++){
+          (function(button_number){
+            var btn = document.createElement('div');
+            btn.innerHTML = "button number " + button_number;
+            btn.handleEvent = function(){
+              alert('my button was clicked' + button_number);
+            };
+            container.appendChild(btn);
+            
+
+          })(i);
+        }
+      }
+
       add_event_listener_button = document.querySelector('#trigger_add_event_listener');
+      trigger_delegated_lots_button = document.querySelector('#trigger_delegated_lots_buttons');
+
       add_event_listener_button.addEventListener('click', triggerAddEventListenerTest);
+      trigger_delegated_lots_button.addEventListener('click', triggerDelegatedLotsButtons);
+
+       
 
     </script>
 
