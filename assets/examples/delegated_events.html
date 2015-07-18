@@ -22,7 +22,7 @@
       container.addEventListener('click', function(evt){
         evt.target['handleEvent'].apply(evt.target, arguments);
       });
-      for(var i=0; i < 100000; i++){
+      for(var i=0; i < 1000000; i++){
         (function(button_number){
           var btn = document.createElement('div');
           btn.innerHTML = "button number " + button_number;
