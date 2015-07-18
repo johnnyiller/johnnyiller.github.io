@@ -13,36 +13,46 @@
   <body>
 
     <h4>Example page javascript Events</h4>
-    <label>Size of experiement</label>
-    <input type="name" id="amount" placeholder="100000" />
+    <label>Number Of Buttons</label>
+    <input type="text" id="btn_amount" placeholder="100000" />
     <br/><br/>
-    <button id="trigger_add_event_listener">
-      Trigger Add Event Listener Lots of buttons
-    </button>
+    <label>Number of Events Per Button</label>
+    <input type="text" id"event_amount" placeholder="10">
     <br/>
+    <label>Delegated</label>
     <br/>
-
-    <button id="trigger_delegated_lots_buttons">
-      Trigger via delegation with lots of buttons. 
+    <input type="checkbox" id="delegated" value="true" checked>
+    <br/>
+    <button id="runit">
+      Run Experiment
     </button>
 
-    <br/><br/>
-    <button id="single_button_lots_listeners">
-      Trigger lots of listeners via single button.
-    </button>
-    <br/><br/>
-    
-    <button id="single_button_delegation">
-      Trigger lots of delegated functions via single button..
-    </button>
-    <br/><br/>
-
-
-    <br/><br/>
 
     <div id="container"></div>
 
     <script>
+
+        (function(){
+        
+         var handleRun = function(){
+          var container = document.querySelector('#container'),
+              number_buttons = parseInt(document.querySelector('#btn_amount').value),
+              number_events = parseInt(document.querySelector('#event_amount').value),
+              delegated = document.querySelector('#delegated').checked;
+
+              console.log(container);
+              console.log(number_buttons);
+              console.log(number_events);
+              console.log(delegated);
+
+         }
+
+         var run_btn = document.querySelector('#runit');
+         run_btn.addEventListener('click', handleRun );
+
+        })();
+
+      /*
       function triggerAddEventListenerTest(){
         container = document.querySelector('#container');
         inner_cont = document.createElement('div');
@@ -159,6 +169,7 @@
       trigger_delegated_lots_button.addEventListener('click', triggerDelegatedLotsButtons);
       single_button_lots_listeners.addEventListener('click', triggerSingleButtonAddEventListenerTest);
       single_button_delegation.addEventListener('click', triggerSingleButtonDelegationTest);
+      */
 
 
        
