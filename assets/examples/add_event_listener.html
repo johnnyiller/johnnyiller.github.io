@@ -26,6 +26,14 @@
       Trigger via delegation with lots of buttons. 
     </button>
 
+    <br/><br/>
+    <button id="single_button_lots_listeners">
+      Trigger lots of listeners via single button.
+    </button>
+    <br/><br/>
+
+    <br/><br/>
+
     <div id="container"></div>
 
     <script>
@@ -69,11 +77,36 @@
         }
       }
 
+      function triggerSingleButtonAddEventListenerTest(){
+        container = document.querySelector('#container');
+        var btn = document.createElement('div');
+        btn.innerHTML = "only one button";
+        btn.addEventListener('click', function(){
+            var time = new Date();
+            console.log('first click function ' + time.toString());
+        });
+        amt = document.querySelector('#amount');
+        val = parseInt(amt.value);
+        for(var i=0; i < val; i++){
+          (function(){
+            btn.addEventListener('click', function(){ return false;});
+          })();
+        }
+        btn.addEventListener('click', function(){
+            var time = new Date();
+            console.log('end click function ' + time.toString());
+        });
+
+      }
+
       add_event_listener_button = document.querySelector('#trigger_add_event_listener');
       trigger_delegated_lots_button = document.querySelector('#trigger_delegated_lots_buttons');
+      single_button_lots_listeners = document.querySelector('#single_button_lots_listeners');
 
       add_event_listener_button.addEventListener('click', triggerAddEventListenerTest);
       trigger_delegated_lots_button.addEventListener('click', triggerDelegatedLotsButtons);
+      single_button_lots_listeners.addEventListener('click', triggerSingleButtonAddEventListenerTest);
+
 
        
 
