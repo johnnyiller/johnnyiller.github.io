@@ -40,10 +40,41 @@
               number_events = parseInt(document.querySelector('#event_amount').value),
               delegated = document.querySelector('#delegated').checked;
 
-              console.log(container);
-              console.log(number_buttons);
-              console.log(number_events);
-              console.log(delegated);
+              if(delegated){
+                container.addEventListener('click',function(evt){
+                  var funcs = evt.target.clickArray;
+                  for(var i = 0; i < funcs.length; i++){
+                    funcs[i].apply(funcs[i], arguments);
+                  }
+                });
+              }
+              console.log("start handling run experiment click " + (new Date()).toString());
+              for(var i=0; i < number_buttons; i++){
+                (function(button_number){
+                  var btn = document.createElement('div');
+                  btn.innerHTML = "button number " + button_number;
+                  btn.clickArray = [];
+
+                  for(var j=0; j < number_events; j++){
+                    (function(event_number, button_number){
+
+                      if(delegated){
+                        btn.clickArray.push(function(){
+                          console.log("delgated: fired event " + event_number + " from button number " + button_number);
+                        });
+                      }else{
+                        btn.addEventListener('click', function(){
+                          console.log("not delegated: fired event " + event_number + " from button number " + button_number);
+                        });
+                      }
+                      
+                     })(j, button_number);
+                  }
+
+                 })(i);
+
+              }
+              console.log("end handline run experiment click " + (new Date()).toString());
 
          }
 
