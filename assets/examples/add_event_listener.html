@@ -84,6 +84,7 @@
       }
 
       function triggerSingleButtonAddEventListenerTest(){
+        console.log("start addEventListener " + (new Date()).toString());
         container = document.querySelector('#container');
         var btn = document.createElement('div');
         btn.innerHTML = "only one button";
@@ -102,12 +103,13 @@
             var time = new Date();
             console.log('end click function ' + time.toString());
         });
-
         container.appendChild(btn);
+        console.log("end addEventListener " + (new Date()).toString());
       }
 
       function triggerSingleButtonDelegationTest(){
 
+        console.log("start delegation functions " + (new Date()).toString());
         container = document.querySelector('#container');
         container.addEventListener('click', function(evt){
             var funcs = evt.target['clickFunctions']; 
@@ -140,6 +142,7 @@
 
         container.appendChild(btn);
 
+        console.log("end delegation functions " + (new Date()).toString());
       }
       
       //triggerSingleButtonAddEventListenerTest
