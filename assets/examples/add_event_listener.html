@@ -12,23 +12,31 @@
   </head>
   <body>
 
-    <h4>Example page javascript Events &mdash; addEventListener</h4>
+    <h4>Example page javascript Events</h4>
+    <label>Size of experiement</label>
+    <input type="name" id="amount" placeholder="100000" />
+    <br/><br/>
+    <button id="trigger_add_event_listener" onclick="triggerAddEventListenerTest">
+      Trigger Add Event Listener Lots of buttons
+    </button>
 
-    <div id="container">
-    </div>
+    <div id="container"></div>
+
     <script>
 
-      var container = document.querySelector('#container');
-      for(var i=0; i < 1000000; i++){
-        (function(button_number){
-          var btn = document.createElement('div');
-          btn.innerHTML = "button number " + button_number;
-          btn.addEventListener('click', function(){
-            alert("clicked the button number " + button_number);
-          });
-          container.appendChild(btn);
+      function triggerAddEventListenerTest(){
+        container = document.querySelector('#container');
+        for(var i=0; i < 1000000; i++){
+          (function(button_number){
+            var btn = document.createElement('div');
+            btn.innerHTML = "button number " + button_number;
+            btn.addEventListener('click', function(){
+              alert("clicked the button number " + button_number);
+            });
+            container.appendChild(btn);
 
-         })(i);
+          })(i);
+        }
       }
 
     </script>
