@@ -9,7 +9,7 @@ categories: javascript events delegation best-practices
 
 We (musicxray.com) have been converting many of our UI over to the wonderful new web-components specification via the Polymer framework. With our move over Polymer we started reducing our reliance on jQuery.  jQuery has really great built in support for event handling that's both efficient and intuitive.  With the removal of jQuery I found myself wanting to user "addEventListener" more frequently.  To be clear, Polymer does have event delegation, it's just not the same as jQuery and so takes re-learning things.
 
-This desire to start using addEventListener all over the place lead to a rather lengthy discussion with my lead UI architect. This lead me to ask the question.  Given advances in javascript execution engines, increase CPU, Memory and SSD drives do we still need to optimize event handling in the browser?
+This desire to start using addEventListener all over the place lead to a rather lengthy discussion with my lead UI architect. This lead me to ask the question.  Given advances in javascript execution engines, increased CPU, Memory and SSD drives; do we still need to optimize event handling in the browser?
 
 The answer in my humble opinion is resounding depends... Event delegation is quicker on initialization, takes less Memory, and calls the handler quicker.  That said, if you are handling fewer than 5000 events on a page then it makes absolutely no difference as far as I can tell.  So if you have a web page with a hundred or so elements and 10 or 20 of them need to handle events then just use "addEventListener" and bypass the complexity of event delegation if you aren't using jQuery.  The extra code maintenance and complexity just won't really be worth it.  
 
