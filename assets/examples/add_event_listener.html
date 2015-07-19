@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Lots of buttons with - addEventListener</title>
+    <title>Test out event delegation.</title>
     <style>
       div {
         border: 1px solid black;
@@ -82,125 +82,6 @@
          run_btn.addEventListener('click', handleRun );
 
         })();
-
-      /*
-      function triggerAddEventListenerTest(){
-        container = document.querySelector('#container');
-        inner_cont = document.createElement('div');
-        amt = document.querySelector('#amount');
-        val = parseInt(amt.value);
-        for(var i=0; i < val; i++){
-          (function(button_number){
-            var btn = document.createElement('div');
-            btn.innerHTML = "button number " + button_number;
-            btn.addEventListener('click', function(){
-              alert("clicked the button number " + button_number);
-            });
-            inner_cont.appendChild(btn);
-
-          })(i);
-        }
-        container.appendChild(inner_cont);
-      }
-
-      function triggerDelegatedLotsButtons(){ 
-        container = document.querySelector('#container');
-        inner_cont = document.createElement('div');
-        container.addEventListener('click', function(evt){
-          evt.target['handleEvent'].apply(evt.target, arguments);
-        });
-
-        amt = document.querySelector('#amount');
-        val = parseInt(amt.value);
-
-        for(var i=0; i < val; i++){
-          (function(button_number){
-            var btn = document.createElement('div');
-            btn.innerHTML = "button number " + button_number;
-            btn.handleEvent = function(){
-              alert('my button was clicked' + button_number);
-            };
-            inner_cont.appendChild(btn);
-          })(i);
-        }
-        container.appendChild(inner_cont);
-      }
-
-      function triggerSingleButtonAddEventListenerTest(){
-        console.log("start addEventListener " + (new Date()).toString());
-        container = document.querySelector('#container');
-        var btn = document.createElement('div');
-        btn.innerHTML = "only one button";
-        btn.addEventListener('click', function(){
-            var time = new Date();
-            console.log('first click function ' + time.toString());
-        });
-        amt = document.querySelector('#amount');
-        val = parseInt(amt.value);
-        for(var i=0; i < val; i++){
-          (function(){
-            btn.addEventListener('click', function(){ return false;});
-          })();
-        }
-        btn.addEventListener('click', function(){
-            var time = new Date();
-            console.log('end click function ' + time.toString());
-        });
-        container.appendChild(btn);
-        console.log("end addEventListener " + (new Date()).toString());
-      }
-
-      function triggerSingleButtonDelegationTest(){
-
-        console.log("start delegation functions " + (new Date()).toString());
-        container = document.querySelector('#container');
-        container.addEventListener('click', function(evt){
-            var funcs = evt.target['clickFunctions']; 
-            for(var i = 0; i < funcs.length; i++){
-              funcs[i].apply(evt.target, arguments);
-            }
-        });
-        var btn = document.createElement('div');
-        btn.innerHTML = "only one button";
-        var functionArray = [];
-        functionArray.push(function(){
-            var time = new Date();
-            console.log('end click function ' + time.toString());
-        });
-
-        amt = document.querySelector('#amount');
-        val = parseInt(amt.value);
-        for(var i=0; i < val; i++){
-          (function(){
-            functionArray.push(function(){ return false;});
-          })();
-        }
-
-        functionArray.push(function(){
-            var time = new Date();
-            console.log('end click function ' + time.toString());
-        });
-
-        btn.clickFunctions = functionArray;
-
-        container.appendChild(btn);
-
-        console.log("end delegation functions " + (new Date()).toString());
-      }
-      
-      //triggerSingleButtonAddEventListenerTest
-      
-
-      add_event_listener_button = document.querySelector('#trigger_add_event_listener');
-      trigger_delegated_lots_button = document.querySelector('#trigger_delegated_lots_buttons');
-      single_button_lots_listeners = document.querySelector('#single_button_lots_listeners');
-      single_button_delegation = document.querySelector('#single_button_delegation');
-
-      add_event_listener_button.addEventListener('click', triggerAddEventListenerTest);
-      trigger_delegated_lots_button.addEventListener('click', triggerDelegatedLotsButtons);
-      single_button_lots_listeners.addEventListener('click', triggerSingleButtonAddEventListenerTest);
-      single_button_delegation.addEventListener('click', triggerSingleButtonDelegationTest);
-      */
 
 
        
