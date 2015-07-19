@@ -19,7 +19,7 @@ To test things out, I made a really simple test page that can attach events usin
 
 When running 100,000 buttons with 10 event handers per button (1,000,000 total event handlers) I found that it took about 2 seconds to attach the event handlers using event delegation and about 7 seconds without.  so about 4 times slower when using addEventListener.  Additionally I found that Chrome used 825MB of Memory to attach and generate the event handlers and elements when not using event delegation and 487MB when it was used.  Given the result is exactly the same in terms of functionality, it's clear that using delegation makes the most amount of sense.
 
-For completeness and because this is a blog about writing code the following two code example illustrate using event delegation and using simple addEventListener to achieve the same thing (at least in chrome, not tested in other browsers).
+For completeness, and because this is a blog about writing code, the following two code examples illustrate using event delegation and using simple addEventListener to achieve the same thing (at least in chrome, not tested in other browsers).
 
 <h4>Basic event handling</h4>
 {% highlight javascript %}
