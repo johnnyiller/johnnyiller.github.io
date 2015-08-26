@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Quick guide to command line oriented github team workflow"
-date: 2015-8-26 16:00:00
+date: 2015-8-26 18:00:00
 comments: true
 categories: git github workflow commandline
 ---
 
 This is another article inspired by my work at the [thefirehoseproject](http://www.thefirehoseproject.com/).  To be clear, the firehose team does a great job of laying out a team workflow via an advanced git topics module that they provide.  This guide is meant for people *not taking thefirehoseproject* course or for those taking it that want a quick refresher along with some additional tips and tricks.
 
-First a brief overview of the workflow that teams should be using on github.  The process should happen as follows.  This assumes you are currently on the master branch and you want to start a new session of work on a feature branch?
+First a brief overview of the workflow that the majority of teams should be using on github.  This flow assumes you are currently on the master branch with no local commits and you want to start a new session of work on a feature branch?
 
 - git pull origin master
 - git checkout -b NEW_BRANCH_NAME
@@ -32,19 +32,18 @@ Git will tell you the files that are conflicting when it attempts to merge.  Tak
 
 ### 3. Pull Request
 
-Typically this will be done by logging into github and clicking the button to create a pull request.  After 300 pull requests or so this process becomes tired fast.  The solution is to install *hub* and link it to your git tool.
+Typically this will be done by logging into github and clicking the button to create a pull request.  After 300 pull requests or so this process becomes tired fast.  The solution is to install *hub* and link it to your git CLI tool.
 
 
 #### Steps to install Linux
 
-From the command line, assumes you are using bash... If you are using something else you probaly don't need this tutorial.
+From the command line, assumes you are using bash... If you are using something else you probaly don't need this tutorial.  
+
+*If you are using a mac your might need to use .bash_profile instead of .bashrc*
 
 {% highlight bash %}
-cd ~/
-curl -O https://github.com/github/hub/releases/download/v2.2.1/hub-linux-amd64-2.2.1.tar.gz
-tar -xzvf hub-linux-amd64-2.2.1.tar.gz
-mv hub-linux-amd64-2.2.1 hub-linux
-echo "export=$PATH:~/hub-linux" >> ~/.bashrc
+sudo gem install hub
+# enter your password when prompted
 echo 'eval "$(hub alias -s)' >> ~/.bashrc
 source ~/.bashrc
 {% endhighlight %}
@@ -68,11 +67,9 @@ Basic Commands:
    status     Show the status of the working directory and staging area
    commit     Record changes to the repository
 
-{% endhighlight %}
 
-Assuming all goes well you should now be able to type.
+# Assuming all goes well you should now be able to type the following from your feature branch.
 
-{% highlight bash %}
 git pull-request
 
 # the first time you run this command it will ask for your username and password.
@@ -80,7 +77,7 @@ git pull-request
 
 {% endhighlight %}
 
-From a feature branch.  This will open up a text editor and give you a chance to write a message about the pull request. Once you save the message the pull-request will automatically trigger on github.  Hub has a bunch of other commands that make using github from the command line super smooth.  I encourage you to explore them to get a better sense of the value of the tool.
+This will open up a text editor and give you a chance to write a message about the pull request. Once you save the message the pull-request will automatically trigger on github.  *Hub* has a bunch of other commands that make using github from the command line super smooth.  I encourage you to explore them to get a better sense of the value of the tool.
 
-Check out the hub [README](https://github.com/github/hub)  
+Check out the hub [README](https://github.com/github/hub) for details on all the useful utilities this gem gives you.
 
