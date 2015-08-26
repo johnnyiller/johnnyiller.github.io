@@ -25,7 +25,7 @@ Next run the following command from a terminal
 bundle install
 {% endhighlight %}
 
-Now that we have byebug we are ready to get started.  Open up the offending code.  In my case it the background job was being executed via the following code.
+Now that we have *byebug* we are ready to get started.  Open up the offending code.  In my case the background job was being executed via the following code.
 
 {% highlight ruby %}
   class GeneralBackgrounder < BaseTask
