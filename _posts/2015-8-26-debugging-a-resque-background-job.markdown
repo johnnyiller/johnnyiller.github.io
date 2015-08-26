@@ -76,7 +76,7 @@ Resque::Worker.new('[YOURQUEUENAME]', {}).work
 
 {% endhighlight %}
 
-When your job executes it will launch into the debugger from there you inspect variable and otherwise follow the code execution path.  Here is a [cheatsheet](http://fleeblewidget.co.uk/2014/05/byebug-cheatsheet/) to get you started.
+When your job executes it will launch into the debugger from there you can inspect variables and follow the code execution path.  Here is a [cheatsheet](http://fleeblewidget.co.uk/2014/05/byebug-cheatsheet/) to get you started.
 
 If you found this article helpful then please leave a comment.
 
