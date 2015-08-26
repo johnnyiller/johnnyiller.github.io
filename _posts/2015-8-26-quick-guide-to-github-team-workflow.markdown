@@ -17,7 +17,7 @@ First a brief overview of the workflow that the majority of teams should be usin
 - git commit -m "COMMIT MESSAGE"
 - git pull origin master
 - fix conflicts
-- if anythign changed type: git commit -m "merging from master"
+- if anything changed type: git commit -m "merging from master"
 - git push origin NEW_BRANCH_NAME
 - create a pull request (can be done on command line, keep reading)
 
