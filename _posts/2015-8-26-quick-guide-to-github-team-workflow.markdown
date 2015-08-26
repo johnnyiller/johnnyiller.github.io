@@ -23,17 +23,21 @@ First a brief overview of the workflow that the majority of teams should be usin
 
 Some questions you may have after looking at this workflow.
 
-### 1. Why do we do pull origin master twice in the workflow.
+### 1. Why do we do pull origin master twice in the workflow?
 
 The first pull from master is to get your code up to date for the start of your work session.  Nothing new here.  The second *git pull origin master* is to reduce the liklihood of a merge conflict from your pull request.  Remember you are on your feature branch so the pull will actully perform a merge from the remote branch into your local feature branch.
 
-### 2. How do we fixing conflicts
+### 2. How do we fix conflicts?
 
 Git will tell you the files that are conflicting when it attempts to merge.  Take note of the output and inspect the files that are conflicted.  Correct the conflicted files and create another commit with the properly edited files.  This is probably the trickiest process when working with a team.  It's important that you don't immediately remove the changes your teamate made without fully understanding what the implications are.
 
-### 3. Pull Request
+### 3. Why do we need to commit again if there are changes?
 
-Typically this will be done by logging into github and clicking the button to create a pull request.  After 300 pull requests or so this process becomes tired fast.  The solution is to install *hub* and link it to your git CLI tool.
+One artifact of merging code in Git is that if you merge and there are any changes, even if you didn't make the changes then you will need to create another commit.  So if your teamate changed something there would be a commit for the original change and another commit when you merge the code into your working copy.
+
+### 4. How do we make a pull request?
+
+Typically this will be done by logging into github and clicking the button to create a pull request.  Pull requests are a feature of Github not Git itself which is why it isn't built into the Git CLI.  Either way, After 300 pull requests or so, the process becomes tired.  The solution is to install *hub* and link it to your git CLI tool.
 
 
 #### Steps to install (ubuntu linux)
@@ -81,4 +85,6 @@ git pull-request
 This will open up a text editor and give you a chance to write a message about the pull request. Once you save the message the pull-request will automatically trigger on github.  *Hub* has a bunch of other commands that make using github from the command line super smooth.  I encourage you to explore them to get a better sense of the value of the tool.
 
 Check out the hub [README](https://github.com/github/hub) for details on all the useful utilities this gem gives you.
+
+That concludes my short guide.  Feel free to leave me a comment should the urge strike you.
 
