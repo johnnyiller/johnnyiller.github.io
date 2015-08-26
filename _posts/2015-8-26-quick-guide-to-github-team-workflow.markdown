@@ -35,7 +35,7 @@ Git will tell you the files that are conflicting when it attempts to merge.  Tak
 Typically this will be done by logging into github and clicking the button to create a pull request.  After 300 pull requests or so this process becomes tired fast.  The solution is to install *hub* and link it to your git CLI tool.
 
 
-#### Steps to install Linux
+#### Steps to install (ubuntu linux)
 
 From the command line, assumes you are using bash... If you are using something else you probaly don't need this tutorial.  
 
@@ -44,7 +44,7 @@ From the command line, assumes you are using bash... If you are using something 
 {% highlight bash %}
 sudo gem install hub
 # enter your password when prompted
-echo 'eval "$(hub alias -s)' >> ~/.bashrc
+echo 'eval "$(hub alias -s)"' >> ~/.bashrc
 source ~/.bashrc
 {% endhighlight %}
 
