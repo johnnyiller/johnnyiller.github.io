@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debugging a resque background job for rails 4.2 using rails console"
-date: 2015-1-12 16:00:00
+date: 2015-8-26 16:00:00
 comments: true
 categories: ruby rails resque byebug debugger
 ---
