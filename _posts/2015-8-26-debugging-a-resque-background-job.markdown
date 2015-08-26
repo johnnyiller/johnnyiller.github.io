@@ -8,6 +8,8 @@ categories: ruby rails resque byebug debugger
 
 As the title implies, this article assumes you are using rails 4.2 and resque for background jobs.  I suppose it also assumes that you want to quickly debug a piece of code.  To be clear, the best way to make sure your code doesn't have issues is to make sure you have full test coverage.  However, I had a problem recently that my test was saying was working but in production it wasn't working.  The only way I know to fix such a thing is to work through it with a debugger and fix and then write a test that recreates the situation.  Hopefully this short tutorial can help you if you find yourself in a similar spot.
 
+## let's get started..
+
 First, stop any background workers you might have running so that you don't process the job accidentally.
 
 Next, If you are using ruby > 2.1 you'll want to be using byebug for all of your debugging needs.  Add it to your Gemfile.
