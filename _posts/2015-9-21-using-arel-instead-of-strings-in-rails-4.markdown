@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using arel instead of string in rails 4"
+title: "Using arel instead of strings in rails 4"
 date: 2015-9-21 16:00:00
 comments: true
 categories: ruby rails arel mysql
