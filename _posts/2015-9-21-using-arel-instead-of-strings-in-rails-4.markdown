@@ -37,9 +37,9 @@ User.where(User.arel_table[:age].gt(myage))
 
 {% endhighlight %}
 
-This is a simple example and in my opinion arel would be the obvious choice for this type of condition, but you would shocked at how many times I've seen people write  strings in order to build this type of query in rails.
+This is a simple example and in my opinion arel would be the obvious choice for this type of condition, but you'd be shocked at how many times I've seen people write  strings in order to build this type of query in rails.
 
-In case it isn't clear why this the third option is better, it basically comes down to composability.  Active record allows you to merge scopes on a join.  If your database table that you were joining on just happened to have an age column you would get an error when you go to use the string version of the scope.  This can completely be avoided by using Arel and so you should just use it by default.
+In case it isn't clear why this the third option is better, it basically comes down to composability.  ActiveRecord allows you to merge scopes on a join.  If your database table that you were joining on just happened to have an age column you would get an error when you go to use the string version of the scope.  This can completely be avoided by using Arel and so you should just use it by default.
 
 
 Another common problem that Rails 4 has is that it doesn't do so well with OR conditions.  Basically it's unsupported via scopes and most of the documentation would have you write an or condition like using a crazy string.  I urge you to resist writing code based on that documentation.  Instead, you should use Arel to codify your complex or conditions whenevery possible.  
