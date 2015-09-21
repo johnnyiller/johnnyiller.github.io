@@ -68,7 +68,7 @@ User.where(query)
 
 {% endhighlight %}
 
-## if you still aren't convinced.  Consider this
+## If you still aren't convinced.  Consider this
 
 executing a sql query is the equivalent of evaling javascript or ruby code.  It's very difficult to find errors and debug when things go wrong because the entire program is a string that doesn't get executed until runtime.  In contrast codifying your sql will allow you to catch syntax errors before they make it into any of you environments.  
 
