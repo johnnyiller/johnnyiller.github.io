@@ -6,7 +6,7 @@ comments: true
 categories: rails polymer asset pipeline performance vulcanize
 ---
 
-[Music Xray](http://www.musicxray.com) is continuing our migration from a jQuery plugin based UI system to a component based UI system.  There are many competing frameworks out there including Angular, React, and Riot that help solve the declaritive UI problem.  We choose polymer for a number of reason.  But the biggest reason we chose it, is that it is attempting to be standards based and thus natively supported in browsers.  That said, many browsers have not fully implemented the web components specification leading to slow performance on browsers yet to update.  The end result is that chrome is blazing fast, firefox is a close second, safari can get slow and IE is the worst offender.
+[Music Xray](http://www.musicxray.com) is continuing our migration from a jQuery plugin based UI system to a component based UI system.  There are many competing frameworks out there including Angular, React, and Riot that help solve the declarative UI problem.  We choose polymer for a number of reason.  But the biggest reason we chose it, is that it is attempting to be standards based and thus natively supported in browsers.  That said, many browsers have not fully implemented the web components specification leading to slow performance on browsers yet to update.  The end result is that chrome is blazing fast, firefox is a close second, safari can get slow and IE is the worst offender.
 
 Additionally, we are a Rails development shop so we would like our development workflow to function within the context of the asset pipeline as adding an entire frontend toolchain would increase the overall complexity of our build process.  This lead us to explore how we can successfully deliver a web component based frontend via the Rails asset pipeline without using tools like [vulcanize](https://github.com/polymer/vulcanize).
 
@@ -14,7 +14,7 @@ As we started to develop more and more components on the page two things became 
 
 ## Always concatenate your components
 
-You should be delivering all of you components for a specific page as one file that has javascript and CSS inline so that you aren't making thousands of concurrent network requests.  In Rails this means processing assets via the asset pipeline.  Luckily that piece of the puzzle has already been solved by using the [polymer-rails](https://github.com/alchapone/polymer-rails) gem.  Simply follow the instructions on the README get your components into an application.html.erb file in your components directory and you are off to the races.  This gem is great and gets you 90% there in terms of performance. However, it's missing a useful optimization for browsers that don't support Web Components.
+You should be delivering all of you components for a specific page as one file that has javascript and CSS inline so that you aren't making thousands of concurrent network requests.  In Rails this means processing assets via the asset pipeline.  Luckily that piece of the puzzle has already been solved by using the [polymer-rails](https://github.com/alchapone/polymer-rails) gem.  Simply follow the instructions on the README get your components into an application.html.erb file in your components directory and you are off to the races.  This gem is great and gets you 90% there in terms of performance and if you only have a few components with little dependencies then you would not need anything else. However, it's missing a useful optimization for browsers that don't support Web Components.
 
 If your browser doesn't support web components (Safari, IE) then everytime you stamp out an instance of your component using your fancy new tag you it will cost you a performance hit in the form of trying to load in the style of javascript as if it's never seen it before.  This behavior does not happen on chrome as it's smart enough to know that it can just use what you already have.  The solution to this it turns out is simple as well.
 
@@ -81,6 +81,9 @@ rm -rf tmp/cache
 {% endhighlight %}
 
 Restart your webserver and you should be good to go.  Please let me know in the comments if this helped you out at all.
+
+My next step is to see if I can get a pull request into the polymer-rails gem with this addition as it would be better to have it all in one spot.
+
 
 
 
