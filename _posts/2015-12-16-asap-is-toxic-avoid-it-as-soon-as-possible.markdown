@@ -33,7 +33,7 @@ This problem can be solved by doing any one the the following things.
 
 Don't put anything in an email that you wouldn't say face to face.  I for one could never imagine myself telling a coworker to their face that they need to do something ASAP, but all to often the impersonal nature of email and skype impacts our etiquette, leading to the use of phrases we would otherwise avoid.
 
-Lastly if I have ever sent you an email with the phrase ASAP, I'm sorry, I was wrong, please forgive me...
+Lastly, if I have ever sent you an email with the phrase ASAP, I'm sorry, I was wrong, please forgive me...
 
 Thanks for reading my rant, hopefully this was amusing and informative enough for you to leave a comment on this blog *ASAP*
 
