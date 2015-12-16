@@ -6,7 +6,7 @@ comments: true
 categories: leadership management philosophy
 ---
 
-This is a ~~short~~ rant about *ASAP*, which translates to, "please, stop whatever you are doing and work on my task instead, and complete it by sometime in the future, but preferrably yesterday".
+This is a <del>short</del> rant about *ASAP*, which translates to, "please, stop whatever you are doing and work on my task instead, and complete it by sometime in the future, but preferrably yesterday".
 
 To give more background information on why I'm taking time to write this non-technical post:  I recently received an email from a coworker asking me to trigger a business process ASAP.  I received this message on the 14th of the month planning to work on it on the 15th of the month (the following day).  By morning, of the following day, I had a follow up message asking me what the status was of the task I was supposed to be working on, with a gentle nudge that he had hoped to go live with things that afternoon.
 
