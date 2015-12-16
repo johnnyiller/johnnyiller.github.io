@@ -14,11 +14,11 @@ To give more background information on why I'm taking time to write this non-tec
 
 There are many problems with ASAP but the biggest problem that I see is that ASAP is not a real time frame.  If it is, it certainly means different things to different parties.  ASAP could easily mean; stop everything you are doing and complete this right now by the end of the day, just as easily as it could mean; finish up whatever you are working on however long that takes and then see if you can fit my task into your schedule. 
 
-The second problem stems from the first problem in that it's impossible to agree upon a deadline when the deadline is ill defined via ASAP.  Thus, "ASAP" reduces the liklihood of a conversation about when the task can actually be completed.  For example, if a person asks for a task to be completed in an hour from the time the task was assigned, then it opens up a dialog about how reasonable or unreasonable that timeline is and both parties can then negotiate a realistic time.  Without a concrete starting point the negotiation is rarely started and so both parties can end up being disappointed. 
+The second problem stems from the first problem in that it's impossible to agree upon a deadline when the deadline is ill defined via ASAP.  Thus, "ASAP" reduces the likelihood of a conversation about when the task can actually be completed.  For example, if a person asks for a task to be completed in an hour from the time the task was assigned, then it opens up a dialog about how reasonable or unreasonable that timeline is and both parties can then negotiate a realistic time.  Without a concrete starting point the negotiation is rarely started and so both parties can end up being disappointed. 
 
-Both parties are disappointed because the person assigning the task will inevitable see the task done later than they would like (since ASAP means yesterday) and the person working on the task will be disappointed because they put in serious effort to stop what they were doing and transition to a new task only to have their coworker wonder why it wasn't done sooner.
+Both parties are disappointed because the person assigning the task will inevitably see the task done later than they would like (since ASAP means yesterday) and the person working on the task will be disappointed because they put in serious effort to stop what they were doing and transition to a new task only to have their coworker wonder why it wasn't done sooner.
 
-The last problem with ASAP is that if you translate the phrase into the real meaning of the phrase then it becomes clear that the phrase is just a nice way of being rude.  As stated above, the phrase basically informs the other person that whatever they are working on right now is less important than the task that the task assigner wants done is.  If you were to say this to people in a real life, collaborative environment, you would be met with some sour looks and worse attitudes and eventually your employees would be less productive, not more.
+The last problem with ASAP is that if you translate the phrase into the real meaning of the phrase then it becomes clear that the phrase is just a nice way of being rude.  As stated above, the phrase basically informs the other person that whatever they are working on right now is less important than the task that the task assigner wants done.  If you were to say this to people in a real life, collaborative environment, you would be met with some sour looks and worse attitudes and eventually your employees would be less productive, not more.
 
 ## What to do instead
 
@@ -31,7 +31,7 @@ This problem can be solved by doing any one the the following things.
 
 ## An observation
 
-Don't put anything in an email that you wouldn't say face to face.  I for one could never imagine myself telling a coworker to their face that they need to do something ASAP, but all to often the impersonal nature of email and skype impacts our etiquette, leading to the use of phrases we would otherwise avoid.
+Don't put anything in an email that you wouldn't say face to face.  I for one could never imagine myself telling a coworker to their face that they need to do something ASAP, but all too often the impersonal nature of email and skype impacts our etiquette, leading to the use of phrases we would otherwise avoid.
 
 Lastly, if I have ever sent you an email with the phrase ASAP, I'm sorry, I was wrong, please forgive me...
 
