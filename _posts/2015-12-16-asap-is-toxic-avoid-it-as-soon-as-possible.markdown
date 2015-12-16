@@ -20,7 +20,7 @@ Both parties are disappointed because the person assigning the task will inevita
 
 The last problem with ASAP is that if you translate the phrase into the real meaning of the phrase then it becomes clear that the phrase is just a nice way of being rude.  As stated above, the phrase basically informs the other person that whatever they are working on right now is less important than the task that the task assigner wants done is.  If you were to say this to people in a real life, collaborative environment, you would be met with some sour looks and worse attitudes and eventually your employees would be less productive, not more.
 
-## what to do instead
+## What to do instead
 
 This problem can be solved by doing any one the the following things.
 
