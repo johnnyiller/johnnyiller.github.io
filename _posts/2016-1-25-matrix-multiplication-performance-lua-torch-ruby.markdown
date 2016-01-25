@@ -75,7 +75,7 @@ takes approximately: 0.39 seconds
 --]===]
 {% endhighlight %}
 
-To summarize, Torch (written for lua) is amazingly fast, literally 20 times faster than ruby and 7 times faster than my simplistic lua implementation. What's interesting is that the simple lua program I wrote is almost 3 times as fast as the ruby implementation.  The moral of the story is then this, if you want to learn linear algebra or play around with toy problems then by all means program your own framework or use something like ruby.  However, if you are planning to do serious computation, it pays to look at tools that are optimized for raw computation.  
+To summarize, **Torch** (written for lua) is amazingly fast, literally **20 times faster than ruby** and **7 times faster than my simplistic lua implementation**. What's interesting is that the simple lua program I wrote is almost 3 times as fast as the ruby implementation.  The moral of the story is then this, if you want to learn linear algebra or play around with toy problems then by all means program your own framework or use something like ruby.  However, if you are planning to do serious computation, it pays to look at tools that are optimized for raw computation.  
 
 I'm looking forward to doing more work with Torch once I've refreshed my memory with the basic computation and practical application of linear algebra. 
 
