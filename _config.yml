@@ -10,3 +10,5 @@ linked_in_username: jeffdurand
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
