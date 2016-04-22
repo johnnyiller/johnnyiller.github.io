@@ -10,7 +10,7 @@ Hopefully you've read my article regarding what I think about the phrase ASAP, i
 
 *warning what follows is another rant*
 
-Recently, I received another message from a co-worker. We were talking about a task that was blocking for another employee, meaning another employee would be somewhat useless for a couple hours until I had completed the task being asked of me.  With regard to the task assignment, everything seemed to be going well. I was asked to do a task, I responded saying it would be the first thing I'd get done after lunch.  I thought the conversation was over.  Then I received the dreaded follow up.  *"I can't really get my work done until this task is complete, so the sooner the better"*
+Recently, I received a request for help from a co-worker. We were talking about a task that was blocking for another employee, meaning another employee would be somewhat useless for a couple hours until I had completed the task being asked of me.  With regard to the task assignment, everything seemed to be going well. I was asked to do a task, I responded saying it would be the first thing I'd get done after lunch.  I thought the conversation was over.  Then I received the dreaded follow up.  *"I can't really get my work done until this task is complete, so the sooner the better"*
 
 *ughhhhhh* I thought but then replied, "okay" (cause I'm only a dickhead 95% of the time).
 
