@@ -13,6 +13,7 @@ Hopefully you've read my article regarding what I think about the phrase ASAP, i
 Recently, I received a request for help from a co-worker. We were talking about a task that was preventing him from getting his work done.  We discussed what the problem was and a viable solution.  When it came time to assign the task, everything seemed to be going well. I was politely asked to do the task, I responded saying it would be the first thing I'd get done after lunch (about a 2 hour turnaround time).  I thought the conversation was over and both sides were happy with the outcome.  Then I received the dreaded follow up, from my co-worker *"I can't really get my work done until this task is complete, so the sooner the better"*
 
 *ughhhhhh*, I thought, but then replied, "okay" (cause I'm only a jerk 95% of the time).
+<iframe src="//giphy.com/embed/10o3Um2U3wa4DK" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/television-frustrated-seinfeld-10o3Um2U3wa4DK">via GIPHY</a></p>
 
 ## The problem as I see it
 It's my opinion that the phrase "the sooner the better" is just as bad and in many ways worse than ASAP.  I call it the passive aggressive version of ASAP.  It means the same as ASAP, but it's meant to be a friendlier nudge.  I imagine the person saying it with a smile, not realizing what an insult to the receivers intelligence it is.  Let's pick apart the phrase a bit, to understand why it's terrible to use and why it won't help you further your agenda.
