@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "User permissions using a join table in Rails"
-date: 2016-6-9 16:00:00
+date: 2016-6-15 16:00:00
 comments: true
 categories: ruby rails domain modeling user permissions
 ---
