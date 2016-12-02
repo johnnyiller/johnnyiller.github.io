@@ -20,7 +20,7 @@ Machine learning is concerned with looking at a source of data and figuring out 
 |80             |700        |500        |
 |120            |600        |810        |
 
-The challenge is to find a mathematical function such that given some value of water and some other value of fertilizer, we precit the amount of corn output we should see for the season.  Anyone familiar with basic economic analysis will recognize this as a simple linear regression problem than can be solved quickly with a little linear algebra.  Typically never use machine learning to solve such a simple problem as deterministic methods work just fine at this scale.  
+The challenge is to find a mathematical function such that given some value of water and some other value of fertilizer, we precit the amount of corn output we should see for the season.  Anyone familiar with basic economic analysis will recognize this as a simple linear regression problem than can be solved quickly with a little linear algebra.  Typically one would never use machine learning to solve such a simple problem as deterministic methods work just fine at this scale.  
 
 ## What does this have to do with machine learning?  
 
