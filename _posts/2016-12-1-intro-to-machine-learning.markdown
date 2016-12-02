@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine learning overview"
+title: "Gentle introduction to Machine Learning"
 date: 2016-12-1 16:00:00
 comments: true
 categories: machine learning
