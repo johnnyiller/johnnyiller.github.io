@@ -6,8 +6,6 @@ comments: true
 categories: machine learning
 ---
 
-# Why write another article on machine learning?
-
 The past couple months, I've been taking a course offered by [coursera](https://www.coursera.org/learn/machine-learning) introducing me to the exicting world of Machine Learning.  Until now, I've only been a passive consumer of machine learning in my own application development and home life [Amazon Echo](https://www.amazon.com/gp/product/B00X4WHP5E).  As a scientist and engineer I always knew that some intersting algorithms were crunching data and then making complex decisions behind the scene, but I didn't really understand the mechanics of that process.  I believe writing is a great way to share information as well as solidify one's understanding about a particular subject and so it is with that reasoning that I write the following article.  If you don't care for understanding how machine learning works but are more interested in why it's important right now feel free to skip over the details.
 
 
