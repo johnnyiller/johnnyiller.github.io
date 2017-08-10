@@ -22,12 +22,12 @@ This code configures the browser cache and your CDN to cache assets for 10 years
 {% highlight ruby %}
 # in your config/application.rb file
 config.public_file_server.headers = {
-  'Surrogate-Control' => 'max-age=94608000',
-  'Cache-Control' => 'maxage=94608000, public, no-check',
-  'Expires' => 1.year.from_now.httpdate,
+  'Surrogate-Control' => 'max-age=315360000',
+  'Cache-Control' => 'maxage=315360000, public, no-check',
+  'Expires' => 10.year.from_now.httpdate,
   'Date' => 4.days.ago.httpdate,
-  'Last-Modified' => 4.days.ago.httpdate
- }
+  'Last-Modified' => 10.days.ago.httpdate
+}
 {% endhighlight %}
 
 The result of this config behind a proper CDN is that you assets will end up being fetched exactly once from your rails application and then never again until you clear the cache.  Even then, the browser cache will ensure that only new visitors to your site will need to request the assets.  In my opinion, Rails is perfectly well suited to serving up the occassional asset in this context and will likely have little impact on overall performance.  Furthermore keeping the caching logic in the code base has obvious utility including allowing caching headers to be tested more easily via unit tests.
