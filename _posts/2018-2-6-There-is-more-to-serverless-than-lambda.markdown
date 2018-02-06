@@ -6,8 +6,6 @@ comments: true
 categories: serverless AWS FAAS StepFunctions lambda
 ---
 
-# There is more to serverless than Lambda.
-
 In case you've been living under a rock let give you a brief introduction.  Amazon and other cloud providers have this thing called FAAS (Functions As A Service).  FASS is the next step in cloud infrastructure that allows developer to write functions and deploy them to be executed in response to an event.  Many organizations are starting to use FAAS because of two very important characteristics of these systems.  
 
 1. You don't pay for idle time.  If you code is not being exectuted you aren't being charged.
@@ -52,6 +50,11 @@ The second thing you will want to pay attention too when managing multiple envir
 
 For example, let's say you want to send a notification via SNS (Amazon's Simple Notification Service) furthermore let's say you have two environments (Production, Staging).  How would your application know if you were generating the notification for Staging or Production if you didn't generate a config file for it to use?  The answer is that the calling application wouldn't unless you had explicitly told your infrastructure provisioning tool to output that information. 
 
+In case it isn't clear.  The way you are going to deploy multiple environments is to deploy completely separate stacks for each environment which becomes trivial when you have a devops tool in place that automates that process.
+
+### How do I develop locally?
+
+You don't.... That's not entirely true.  When you start developing serverless applications you should treat the cloud as part of your development environment.  The same scripts that can provision a production environment can provision a dev environment and since you only pay for usage and not servers you don't have to worry about deploying the full stack in your development environment.
 
 
 
