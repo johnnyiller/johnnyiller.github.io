@@ -64,7 +64,7 @@ Unit testing isn't really optional in any project but that's even more so in the
 
 In a traditional project you can get away with developing something testing basic functionality, then asking QA to log bugs and issues. While this process isn't ideal, it is workable for many projects.  With serverless architecture Integration tests are an absolute must for anything besides the most trivial applications. The following diagram describes a workflow one should probably adopt early in your serverless project process.
 
-![Development Strategy for serverless]({{ site.url }}/assets/diagrams/development_process_for_serverless.jpg)
+![Development Strategy for serverless]({{ site.url }}/assets/diagrams/development_process_for_serverless_v1.jpg)
 
 
 ### How do I co-ordinate multiple functions as part of one process?
