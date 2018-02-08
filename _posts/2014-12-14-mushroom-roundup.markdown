@@ -3,7 +3,7 @@ layout: post
 title: "Mushroom hunting 2014 season roundup"
 date: 2014-12-14 16:00:00
 comments: true
-categories: food mushrooms 
+categories: food mushrooms
 ---
 So along with writing software and expressing my opinions about systems architectures.  I also love to hike and hunt for wild edible mushrooms.  This year I found some pretty great stuff in MA and NH.  Here is a quick rundown of what I found this year.
 
@@ -20,7 +20,7 @@ Here we have some laetiporus sulphureus I found in the woods near my house.  Coo
 ![Chicken of the woods / laetiporus sulphureus]({{ site.url }}/assets/mushroom_roundup/chicken_of_the_woods.jpg)
 
 ### Big Laughing Gym?
-I have no idea, could be but I didn't chance it. 
+I have no idea, could be but I didn't chance it.
 ![Big laughing Gym]({{ site.url }}/assets/mushroom_roundup/laughing_jim.jpg)
 
 ### Hen of the woods, MA

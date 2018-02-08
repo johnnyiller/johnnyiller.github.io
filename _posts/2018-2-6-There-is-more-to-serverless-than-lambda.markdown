@@ -116,4 +116,4 @@ Generally speaking you can coordinate function execution, error handling, and re
 
 ![State Machine]({{ site.url }}/assets/diagrams/state_machine.png)
 
-
+Using a state machine is completely optional.
