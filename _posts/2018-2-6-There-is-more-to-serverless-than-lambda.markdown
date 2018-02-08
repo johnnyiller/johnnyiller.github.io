@@ -12,6 +12,7 @@ In case you've been living under a rock let give you a brief introduction.  Amaz
 1. You can scale from 1 req/s to 1000 req/s or more with absolutely zero effort or planning.
 
 Just to manage your expectations of this article, I'm going to focus this effort on AWS but the knowledge is applicable to other providers as well.
+![Golden Chanterelles White Mountains NH]({{ site.url }}/assets/mushroom_roundup/chanterelles_white_mountains_early_spring.jpg)
 
 # So that's it just deploy functions and you are done right?
 
