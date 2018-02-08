@@ -12,7 +12,6 @@ In case you've been living under a rock let give you a brief introduction.  Amaz
 1. You can scale from 1 req/s to 1000 req/s or more with absolutely zero effort or planning.
 
 Just to manage your expectations of this article, I'm going to focus this effort on AWS but the knowledge is applicable to other providers as well.
-![Golden Chanterelles White Mountains NH]({{ site.url }}/assets/mushroom_roundup/chanterelles_white_mountains_early_spring.jpg)
 
 # So that's it just deploy functions and you are done right?
 
@@ -65,7 +64,7 @@ Unit testing isn't really optional in any project but that's even more so in the
 
 In a traditional project you can get away with developing something testing basic functionality, then asking QA to log bugs and issues. While this process isn't ideal, it is workable for many projects.  With serverless architecture Integration tests are an absolute must for anything besides the most trivial applications. The following diagram describes a workflow one should probably adopt early in your serverless project process.
 
-![Development Strategy for serverless]({{ site.url }}/assets/diagrams/development_process_for_serverless.png)
+![Development Strategy for serverless]({{ site.url }}/assets/diagrams/development_process_for_serverless.jpg)
 
 
 ### How do I co-ordinate multiple functions as part of one process?
@@ -115,6 +114,6 @@ Generally speaking you can coordinate function execution, error handling, and re
 }
 {% endhighlight %}
 
-![State Machine]({{ site.url }}/assets/diagrams/state_machine.png)
+![State Machine]({{ site.url }}/assets/diagrams/state_machine.jpg)
 
 Using a state machine is completely optional.
