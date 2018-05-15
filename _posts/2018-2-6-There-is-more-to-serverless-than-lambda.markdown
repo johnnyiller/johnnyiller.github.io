@@ -3,6 +3,7 @@ layout: post
 title: "There is more to serverless than lambda"
 date: 2018-2-6 16:00:00
 comments: true
+published: false
 categories: serverless AWS FAAS StepFunctions lambda
 ---
 
