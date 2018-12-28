@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "python builder pattern"
-date: 2018-2-6 16:00:00
+date: 2018-12-28 16:00:00
 comments: true
-published: false
-categories: serverless AWS python pattern software design
+published: true
+categories: dynamodb python pattern software design
 ---
 
 After years of ruby and javascript I've started doing some work with python recently after joining the team at [Agero](https://www.agero.com/careers).  One of the first things I noticed was that a lot of folks in the python world pass around a lot of named arguments as a convention.  My first example of this is the boto3 library used to interact with AWS in python [(for proof, click here)](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#DynamoDB.Client.scan)
