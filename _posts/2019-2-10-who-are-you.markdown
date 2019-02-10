@@ -23,7 +23,7 @@ Hopefully, I've convinced you that taking some time to think about who you are a
 
 Wow! Really Jeff?  Yeah I know, this is silly and bizarre and who the hell cares about anyone's spirit animal?  I had this very reaction when someone first brought this line of questioning up to me.
 
-I was working for [gazelle.com](https://www.gazelle.com) and we were conducting interviews for a new software developer we wanted to add to the team.  We were trying to come up with question to ask the interviewee and one of my colleagues launched into a story about how he went in for an interview early in his career, and the founder asked him without flinching, what his spirit animal was.  We all laughed at the absurdity of it, but then something funny happened.  We all went around (half jokingly) and said what our spirit animals were. This of course forced us to think about why a particular animal personified us.  The exercise yielded some fun and interesting results.
+I was working for [gazelle.com](https://www.gazelle.com) and we were conducting interviews for a new software developer we wanted to add to the team.  We were trying to come up with questions to ask the interviewee and one of my colleagues launched into a story about how he went in for an interview early in his career, and the founder asked him without flinching, what his spirit animal was.  We all laughed at the absurdity of it, but then something funny happened.  We all went around (half jokingly) and said what our spirit animals were. This of course forced us to think about why a particular animal personified us.  The exercise yielded some fun and interesting results.
 
 In the interest of transparency and getting the ball rolling I'll tell you my spirit animal: 
 
