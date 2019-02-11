@@ -53,6 +53,6 @@ Lastly, a bar keep is often a sounding board for people's problems which keeps h
 
 There are likely a number of other questions that are even better at giving you some clue about who you are or might become professionally.
 
-In closing: My title says "Software Architect" and that is the job that I perform, However, I like to think I approach it with penguins and bar keeps in mind.  Hopefully that approach makes me more effective in my job role and more fulfilled in my career.
+In closing: My title says "Software Architect" and that is the job that I perform. However, I like to think I approach that job with penguins and bar keeps in mind.  Hopefully that approach makes me more effective in my job role and more fulfilled in my career.
 
 Please leave a comment if you have who are you question you'd like to share or if you just want to tell me about your spirit animal :)
