@@ -46,7 +46,7 @@ To get the ball rolling I'll go first.
 
 I believe I would have been a bar keep or Inn Owner (truthfully this still sounds like a great option).  The idea of operating a hub for discussion and ideas is incredibly appealing to me.  Taverns and dinner tables are the original open source in my opinion.  Get a few drinks in folks and ideas tend to flow.  Taverns are where deals were struck and decisions were made in the absense of a more formal settings.
 
-Lastly, a bar keep is often a sounding board for people's problems which keeps him in the know about not only that individual's issue, but also get the pulse of the entire community. Getting the real truth from people can often lead to solutions and ideas that would otherwise prove elusive.
+Lastly, a bar keep is often a sounding board for people's problems which keeps him in the know about not only that individual's issue, but also would help one put their finger on the pulse of the entire community. Getting the unfiltered story from a group by talking to them individually can often lead to solutions and ideas that would otherwise prove elusive in a more organized meeting style setting.
 
 
 ## Parting thoughts
