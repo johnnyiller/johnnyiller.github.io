@@ -8,7 +8,7 @@ categories: dynamodb serverless counting
 ---
 
 # Counting on dynamodb
-Recently, some folks at my company [Agero](https://www.agero.com/) starting thinking about pre-aggregating data, for use, as input into another process.  Specifically, the question came up as to how we could maintain event counts which as you may or may not know is foundational to probability and statistic related computation.  A histogram is nothing more than bucketed counts and a probabilty distribution is just the continous version of that.  Hence, maintaining counts is often a requirement of useful statistical computation.
+Recently, some folks at my company [Agero](https://www.agero.com/) starting discussing strategies for pre-aggregating data that could be used for statistical compuation based on business metrics.  Specifically, the question came up as to how we could maintain event counts.  Counting has a long history in the field of probability and statistics and is in many ways the most foundational form of data required for data science teams.  A histogram is nothing more than bucketed counts and a probabilty distribution is just the continous version of the same thing.  Hence, maintaining counts is often a requirement of useful statistical computation.  Thus, there is value in considering how one might count lots of things.
 
 Having drank the serverless cool-aid a while ago, I've been using lambda and dynamodb heavily in recent years.  I present the following as a possible solution to maintain counts in this type of environment:
 
@@ -17,16 +17,16 @@ First a rough architecture:
 
 ![Architecture]({{ site.url }}/assets/diagrams/dynamodb_counters.png)
 
-The infrastructure is pretty simple.  We have a table that recieves our event data.  This could be purchase data for a customer, ad impressions for visitor or any other [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) event source. 
+The infrastructure is pretty simple.  We have a table that recieves our event data.  This could be purchase data for a customer, ad impressions for a visitor or any other [monotonic](https://en.wikipedia.org/wiki/Monotonic_function) event source. 
 
-When an event arrives in our event table, dynamodb will automatically invoke our lambda function with the operation type "INSERT" and the payload representing the data that was placed into the event table.  Based on this event data we construct a "PutItem" operation to upsert into our count table.  For our use case we wanted to know, "how many jobs have been placed for a specific customer in the last 24hours".  
+When an event arrives in our event table, dynamodb will automatically invoke our lambda function with the operation type "INSERT" and the payload representing the data that was placed into the event table.  Based on this event data we construct a "PutItem" operation to upsert into our count table.  For our use case we wanted to know, "how many jobs have been placed for a specific customer in the last 24 hours".  
 
-For this demo we decided that minute level precision was close enough, but one could extend this solution to any level of accuracy.  Really it comes down to how much extra you are willing to pay for additional decimal places of precision.  There are trade-offs with any architecture and this one trades off a small bit of precision for a huge speed improvement on large datasets.
+For this demo I decided that minute level precision was close enough, but one could extend this solution to any level of precision.  Really it comes down to how much extra one is willing to pay for additional decimal places of precision.  There are trade-offs with any architecture and this architecture trades off a small bit of precision for a huge speed improvement on large datasets.  Similarly there are tradeoffs in precision and cost in the real world.  For example, one might use a tape measure for carpentry but a micrometer for machining. 
 
-This means that we bucket all counts by *both* hour and minute.  To illustrate why, consider the following:
+Given we require minute level precision, we bucket all counts by *both* hour and minute.  To illustrate why, consider the following:
 ![Time Buckets]({{ site.url }}/assets/diagrams/time_buckets.png)
 
-Given this diagram, the problem we are solving for with different level of granularity becomes clear.  When we move to the next hour in our series, we don't have a full hour of data.  Thus, we need to look back at the historical minutes and fill them in appropriately.  We will have to fetch between 24 - 24 + 59 dynamodb keys for every count we wish to calculate. The upper bound of 83 keys helps make our system performance more stable than if we had to make calculations based on 0..n number of events. 
+Given this diagram, the problem we are solving for with different levels of granularity becomes clear.  When we move to the next hour in our series, we don't have a full hour of data.  Thus, we need to look back at the historical minutes and fill them in appropriately.  This design means that our code will have to fetch between 24 - 24 + 59 dynamodb keys for every count we wish to calculate. The upper bound of 83 keys helps make our system performance more stable than if we had to make calculations based on 0..n number of events.   83 is also a good number as it can be queried without pagination from dynamodb.
 
 The requirement to query up to 83 keys means that if we have very few events per 24 hour period the advantage of pre-aggregating goes away and we likely wouldn't need to pre-aggregate at all.  Thus, this type of counting is best used when we have a relatively high volume of event data coming in.
 
