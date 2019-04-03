@@ -160,7 +160,7 @@ def handler(event, context):
 
 {% endhighlight %}
 
-Now that you have code can infrastructure in place you can generate some event data and see the result.
+Now that you have code and infrastructure in place you can generate some event data and see the result.
 
 {% highlight python %}
 
