@@ -26,7 +26,7 @@ When an event arrives in our event table, dynamodb will automatically invoke our
 For this demo I decided that minute level precision was close enough, but one could extend this solution to any level of precision.  Really it comes down to how much extra one is willing to pay for additional decimal places of precision.  There are trade-offs with any architecture and this architecture trades off a small bit of precision for a huge speed improvement on large datasets.  Similarly there are tradeoffs in precision and cost in the real world.  For example, one might use a tape measure for carpentry but a micrometer for machining. 
 
 Given we require minute level precision, we bucket all counts by *both* hour and minute.  To illustrate why, consider the following:
-![Time Buckets]({{ site.url }}/assets/diagrams/time_buckets.png)
+![Time Buckets]({{ site.url }}/assets/diagrams/time_buckets_v2.png)
 
 Given this diagram, the problem we are solving for with different levels of granularity becomes clear.  When we move to the next hour in our series, we don't have a full hour of data.  Thus, we need to look back at the historical minutes and fill them in appropriately.  This design means that our code will have to fetch between [24,24 + 59] dynamodb keys for every count we wish to calculate. The upper bound of 83 keys helps make our system performance more stable than if we had to make calculations based on 0..n number of events.   83 is also a good number as it can be queried without pagination from dynamodb.
 
