@@ -3,7 +3,7 @@ layout: post
 title: "Counting on dynamodb"
 date: 2019-4-24 16:00:00
 comments: true
-published: false
+published: true
 categories: dynamodb serverless counting
 ---
 
