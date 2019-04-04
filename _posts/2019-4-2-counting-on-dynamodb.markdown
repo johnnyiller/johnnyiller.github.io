@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "Counting on dynamodb"
-date: 2019-4-24 16:00:00
+date: 2019-4-2 16:00:00
 comments: true
 published: true
 categories: dynamodb serverless counting
 ---
+Recently, some folks at my company [Agero](https://www.agero.com/) starting discussing strategies for pre-aggregating data that could be used for statistical compuation based on business metrics.  Specifically, the question came up as to how we could maintain event counts.  
 
-# Counting on dynamodb
-Recently, some folks at my company [Agero](https://www.agero.com/) starting discussing strategies for pre-aggregating data that could be used for statistical compuation based on business metrics.  Specifically, the question came up as to how we could maintain event counts.  Counting has a long history in the field of probability and statistics and is in many ways the most foundational form of data required for data science teams.  
-
-A histogram is nothing more than bucketed counts and a probabilty distribution is just the continous version of the same thing.  Hence, maintaining counts is often a requirement of useful statistical computation.  Thus, there is value in considering how one might count lots of things.
+Counting has a long history in the field of probability and statistics and is in many ways the most foundational form of data required for data science teams.  A histogram is nothing more than bucketed counts and a probabilty distribution is just the continous version of the same thing.  Maintaining counts is often a requirement of useful statistical computation.  Thus, there is value in considering how one might count lots of things.
 
 Having drank the serverless cool-aid a while ago, I've been using lambda and dynamodb heavily in recent years.  I present the following as a possible solution to maintain counts in this type of environment:
 
@@ -220,7 +218,7 @@ for current_hour in range(start_hour, end_hour):
 
 {% endhighlight %}
 
-Lastly, You can query the counts database for a specific time range, aggregate the counts and do as you wish with that information.
+Lastly, you can query the counts database for a specific time range, aggregate the counts and do as you wish with that information.
 
 {% highlight python %}
 # query.py
