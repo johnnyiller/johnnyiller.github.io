@@ -24,7 +24,7 @@ I hope those bullet points are self explanatory, but if they are not hopefully t
 
 ## Don't give them the answer
 
-Beginner mentor's often make the mistake of thinking they are a dictionary to be used as a way for mentees to lookup the answer to a specifc question.  Don't make the mistake of acting like a far inferior version of google or stack-exchange.  First you will never keep pace with the vast knowledge the internet can provide so don't even try.  Second, even if you had a photographic memory you would be doing your mentee a disservice by giving them the answer.
+Beginner mentor's often make the mistake of thinking they are a dictionary to be used as a way for mentees to lookup the answer to a specifc question.  Don't make the mistake of acting like a far inferior version of google or stack-exchange.  First you will never keep pace with the vast knowledge the internet can provide, so don't even try.  Second, even if you had a photographic memory you would be doing your mentee a disservice by giving them the answer.
 
 I firmly believe that giving someone the answer to the question is a form of __*intellecutal theft*__.  Robbing someone of the pride and joy of struggling through, and ultimately solving a hard problem, is antithetical to your role as Mentor.  Try as hard as you can to avoid this trap.
 
