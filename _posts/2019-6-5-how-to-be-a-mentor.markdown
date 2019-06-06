@@ -60,7 +60,7 @@ Mentor's often have more domain experience than mentee's.  Openly discussing thi
 
 Be careful to not to impose too much of your bias on a particular topic.  Statements like, technology X doesn't do this so don't use it are less helpful than guiding mentee's towards the technology that would likely be adaquate. 
 
-Adaquate is key here.  There may be 5 ways to solve a problem where each one is better than the next.  It's not always important that your mentee jumps right to the best solution but that they implement something that solves their problem and then reflect on what they could have done better.  As with so many things in life, learning is about the journey and not the destination as long as immediate requirements are satisfied. **Be okay with imperfection, but not negligence**
+Adaquate is key here.  There may be 5 ways to solve a problem where each one is better than the next.  It's not always important that your mentee jumps right to the best solution but that they implement something that solves their problem and then reflect on what they could have done better.  As with so many things in life, learning is about the journey and not the destination as long as immediate requirements are satisfied. **Be okay with imperfection, but not negligence**.
 
 
 ## Don't let them quit
