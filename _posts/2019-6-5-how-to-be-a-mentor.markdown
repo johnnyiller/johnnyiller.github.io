@@ -69,7 +69,7 @@ Assuming they have chosen their career path and are pursuing some goal.  Don't l
 
 ### Help them achieve smaller wins instead
 
-**Try to reframe success in the form a smaller problem.** For example if your mentee says they would like to create a nuclear fusion reactor in the next year with zero prior knowledge of what's involved, it's your job to lay out some first steps that will lead them ultimately to conclude that their original plan was unrealistic and they lacked the skills, while still keeping them on a productive path.  Instead you might suggest they take an elementary physics course and meet with some experts in the field.
+**Try to reframe success in the form of a smaller problem.** For example if your mentee says they would like to create a nuclear fusion reactor in the next year with zero prior knowledge of what's involved, it's your job to lay out some first steps that will lead them ultimately to conclude that their original plan was unrealistic and they lacked the skills, while still keeping them on a productive path.  Instead you might suggest they take an elementary physics course and meet with some experts in the field.
 
 Small wins will keep folks engaged and reduce the likelihood of a quitting and bring folks back from the brink of collapse.
 
