@@ -80,6 +80,7 @@ Forced mentorship rarely works.  Several times, my mentees have decided I wasn't
 In addition to not being a good fit in the first place, If you do your job correctly, your mentee will eventually outgrow you.  **A mentor mentor relationship may not be forever**.  Evaluating if the relationship is working every once in a while will help you figure out if it's time for a change.
 
 <hr/>
+
 That's all I have for now, I have to give a shout-out to my current employer <a href="https://www.agero.com/">Agero</a>, while we don't yet have an official mentorship program, I've found that if you're a willing mentee there are a number folks in leadership positions that openly offer guidance and support.  In the cut throat tech world this can be hard to find.  If you are looking for a job at a company that supports continual improvement and learning for its workforce, I would encourage you to <a href="https://www.agero.com/careers/openings">apply for an open position</a>.
 
 **If you wish to contribute to the conversation please leave a comment**
