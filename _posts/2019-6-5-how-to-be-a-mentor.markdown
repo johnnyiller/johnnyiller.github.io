@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to be a mentor"
+title: "How to be a mentor"
 date: 2019-6-5 16:00:00
 comments: true
 categories: mentorship learning leadership
