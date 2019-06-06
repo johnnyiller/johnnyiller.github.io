@@ -78,9 +78,9 @@ Small wins will keep folks engaged and reduce the likelihood of a quitting and b
 Forced mentorship rarely works.  Several times, my mentees have decided I wasn't the right person for helping them achieve their goals.  Additionally, I've had to drop certain mentees because the weren't keeping up their end of the bargain.  Missed appointements and closed mindedness are usually the triggers. If the mentee can't be present and is unwilling to engage in discussion with the mentor the relationship will not be fruitful and it should be terminated.  
 
 In addition to not being a good fit in the first place, If you do your job correctly, your mentee will eventually outgrow you.  **A mentor mentor relationship may not be forever**.  Evaluating if the relationship is working every once in a while will help you figure out if it's time for a change.
-
+<br/><br/>
 <hr/>
-
+<br/><br/>
 That's all I have for now, I have to give a shout-out to my current employer <a href="https://www.agero.com/">Agero</a>, while we don't yet have an official mentorship program, I've found that if you're a willing mentee there are a number folks in leadership positions that openly offer guidance and support.  In the cut throat tech world this can be hard to find.  If you are looking for a job at a company that supports continual improvement and learning for its workforce, I would encourage you to <a href="https://www.agero.com/careers/openings">apply for an open position</a>.
 
 **If you wish to contribute to the conversation please leave a comment**
