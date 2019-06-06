@@ -6,7 +6,7 @@ comments: true
 categories: mentorship learning
 ---
 
-I use this blog to organize my thoughts about my professional work, with the intent of helping others organize their thoughts, if they find themselves in a similar position.  While much of my work is related to writing code and connecting the technology dots that business stakeholders rely on to improve outcomes, another large and growing part of my work is centered around technical and career mentorship.  
+I use this blog to organize my thoughts about my professional work, with the intent of helping others organize their thoughts, if they find themselves in a similar position.  While much of my work is related to writing code and connecting the technology dots, another large and growing part of my work is centered around technical and career mentorship.  
 
 This article will focus on the mentorship part of my life.  First I'll define what I believe the role of a mentor is in a technical setting (may be applicable to other industries). Second, I'll attempt to impart some wisdom I've acquired during my years mentoring, with the hope that future mentors will have a fruitful experience with their mentees.
 
