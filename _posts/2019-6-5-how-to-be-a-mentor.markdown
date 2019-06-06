@@ -56,7 +56,7 @@ This process is valuable because it offers the mentor an opportunity to learn so
 
 ## Discuss your history
 
-Mentor's often have more domain experience than mentee's.  Openly discussing this experience can provide some great direction for self guided learning. For example, if you have extensive experience with a particular technology.  Covering the pros and cons, of lesson's learned while using that technology, can be incredibly valuable to help focus an individual's selection, in books or academic courses that can enrich their learning. 
+Mentor's often have more domain experience than mentee's.  Openly discussing this experience can provide some great direction for self guided learning. For example, if you have extensive experience with a particular technology.  Covering the pros and cons, and lesson's learned while using that technology, can be incredibly valuable to help focus an individual's selection, in books or academic courses that can enrich their learning. 
 
 Be careful to not to impose too much of your bias on a particular topic.  Statements like, technology X doesn't do this so don't use it are less helpful than guiding mentee's towards the technology that would likely be adaquate. 
 
