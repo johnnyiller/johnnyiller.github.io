@@ -22,7 +22,7 @@ In my opinion the role of a mentor is to provide the following guidance - in ord
 
 I hope those bullet points are self explanatory, but if they are not hopefully the rest of the article will offer more practical advice.
 
-## Don't give them answer
+## Don't give them the answer
 
 Beginner mentor's often make the mistake of thinking they are a dictionary to be used as a way for mentees to lookup the answer to a specifc question.  Don't make the mistake of acting like a far inferior version of google or stack-exchange.  First you will never keep pace with the vast knowledge the internet can provide so don't even try.  Second, even if you had a photographic memory you would be doing your mentee a disservice by giving them the answer.
 
