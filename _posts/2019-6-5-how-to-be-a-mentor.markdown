@@ -77,7 +77,7 @@ Small wins will keep folks engaged and reduce the likelihood of a quitting and b
 
 Forced mentorship rarely works.  Several times, my mentees have decided I wasn't the right person for helping them achieve their goals.  Additionally, I've had to drop certain mentees because the weren't keeping up their end of the bargain.  Missed appointements and closed mindedness are usually the triggers. If the mentee can't be present and is unwilling to engage in discussion with the mentor the relationship will not be fruitful and it should be terminated.  
 
-In addition to not being a good fit in the first place, If you do your job correctly, your mentee will eventually outgrow you.  **A mentor mentor relationship may not be forever**.  Evaluating if the relationship is working every once in a while will help you figure out if it's time for a change.
+In addition to not being a good fit in the first place, If you do your job correctly, your mentee will eventually outgrow you.  **A mentor to mentee relationship may not be forever**.  Evaluating if the relationship is working every once in a while will help you figure out if it's time for a change.
 <br/><br/>
 <hr/>
 <br/><br/>
