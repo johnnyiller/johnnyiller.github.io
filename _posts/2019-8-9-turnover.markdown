@@ -63,11 +63,11 @@ Both Tuckman and Dalio speak to the idea that if teams are constantly changing t
 
 ![GroupDynamicsProcess]({{site.url}}/assets/diagrams/teamturnover-color.png)
 
-As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.
+As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.  When teams are stuck in the earlier stages of development they are unable to function on their own and will require much more direction.  If managers are unable to move on to other teams the organization may fail to scale properly.
 
 Adding more people to a team that hasn't reached the performance stage yet my also result in something known as [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).  The Mythical Man Month states that adding another person to an already late project will just make it later.  
 
-The notion that you can just add another person and all will be fixed, is a hold out from the industrial age, where adding another worker to a factory production floor would increase output and help you fulfill an order that was running late.  In the knowledge economy this is no longer true, since communication is at the center of all valuable work being done by the team.  When managers add another person, they increase the communication complexity and thus slow the overall team down and prevent the team from reaching the performance stage.
+The notion that you can just add another person and the project will be completed on time, is a hold out from the industrial age, where adding another worker to a factory production floor would increase output and help fulfill an order that was running late.  In the knowledge economy this is no longer true, since communication is at the center of all valuable work being done by the team.  Ultimately, when managers add another person, they increase the communication complexity and thus slow the overall team down and prevent the team from reaching the performance stage and completing the project.
 
 My own take on this subject, is that, years of evolution have conditioned us to view outsiders as inherently less trustworthy than insiders.  Groups that are frequently having to assimilate new members have to spend enormous amounts of time building trust, which can slow down the workflow and ultimately lead to even the top performers becoming frustrated.  This frustration will likely lead to top individuals leaving the company, which has widely been documented as a [top expense for companies.](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee).
 
@@ -83,7 +83,7 @@ Hopefully, I've convinced you that high <b>internal turnover</b> is a real thing
 
 If you are reading this sentence, I'll assume you'd like a few pointers on how to limit <b>internal turnover</b> and see your organization thrive.  This list isn't meant to be exhaustive so please feel free to leave a comment, if you think of other ways to reduce internal turnover rates.
 
-## Tips for reducing with Internal Turnover
+## Tips for reducing Internal Turnover
 
 ### Change Projects not teams
 
@@ -93,7 +93,7 @@ The core principle is that it's easier and thus more cost effective to learn new
 
 ### Hire learner generalists in favor of specialists
 
-Learning generalists can complete many different tasks depending on what the project calls for. They are usually inquisitive by nature, which allows them to quickly pick up skills they might be lacking.  This makes it easy to task a team of generalists with a new project, removing the need break teams apart in the first place as project requirements change.  
+Learning generalists can complete many different tasks depending on what the project calls for. They are usually inquisitive by nature, which allows them to quickly pick up skills they might be lacking.  This makes it easy to task a team of generalists with a new project, removing the need to break teams apart in the first place, as project requirements change.  
 
 Generalists will likely have to learn less overall than a team of specialists, since good enough knowledge of a subject is often good enough.  Secondly, because generalists have a wide range of knowledge they will have many common interests with one and other, which will help them socialize and form tighter bonds with each other more quickly (birds of a feather flock together).  
 
@@ -111,8 +111,10 @@ Be careful when purchasing a small startup to make sure a majority of people on 
 
 ### Avoid mixing outsourced with in-sourced
 
-At a very basic level, team members should have aligned incentives.   Without aligned incentives it can be extremely difficult to get team members to work together cohesively.  This can be hard or impossible to achieve in an environment where there are two different classes of employee with different incentive structures and even different bosses, working on the same project.  Often in-sourced employees are more permanent than outsourced.  This means that in-sourced employees often want to create things that not only meet today's requirements but also allow for change and the meeting of future requirements.  
+At a very basic level, team members should have aligned incentives.   Without aligned incentives it can be extremely difficult to get team members to work together cohesively.  This can be hard or impossible to achieve in an environment where there are two different classes of employee with different incentive structures and even different bosses, working on the same project.  
 
-Outsourced employees are often tasked with spending only the minimum amount of hours to complete the task they have been assigned and then they can be assigned to a new team, project, or even company altogether after that task is completed.  The turnover of the outsourced employees can throw off they dynamic of the in-sourced employees by causing them to constantly be adapting to new personality types and skill levels.  
+Often in-sourced employees are more permanent than outsourced.  This means that in-sourced employees often want to create things that not only meet today's requirements but also allow for change and the meeting of future requirements.  
+
+Outsourced employees are often tasked with spending only the minimum amount of hours to complete the task they have been assigned, after which, they can be assigned to a new team, project, or even another company altogether.  The turnover of the outsourced employees can throw off they dynamic of the in-sourced employees by causing them to constantly be adapting to new personality types and skill levels.  
 
 The tension can end up leading great employees to seek teams that don't have outsourced team members and when that's not available they may eventually leave the organization altogether.  Either way, the result is increased turnover and lower overall productivity.
