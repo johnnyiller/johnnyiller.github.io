@@ -6,20 +6,20 @@ comments: true
 categories: Organization Architecture
 ---
 
-Exciting stuff right?  Instinctively folks understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can a create a downward spiral, where the churn rate, keeps increasing until the organization becomes a revolving door of employees.  
+Exciting stuff right?  Instinctively folks understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral, where the churn rate, keeps increasing until the organization becomes a revolving door of employees.  
 
-Avoiding turnover, is one of the primary reasons, large organizations spend incredible amounts of money and effort trying to retain top talent and why cultural fit is an important things to asses during the hiring process.  This article is going to focus on some of the sources of employee turnover and hopefully offer some advice to companies experiencing the ill effects of turnover's wrath. 
+Avoiding turnover, is one of the primary reasons, large organizations spend incredible amounts of money and effort trying to retain top talent and why cultural fit is important to assess during the hiring process.  This article is going to focus on some of the sources of employee turnover and hopefully offer some advice to companies experiencing the ill effects of turnover's wrath. 
 
-First let's level set, I'm a technologist, software developer, and systems architect.  So it may be valid to ask what business I have commenting on organizational / business issues at all.  One might argue that these discussions are better left for the MBA folks and Accountants. Fair point, let me first lay out my reasoning around writing an article like this at all. 
+First let's level set, I'm a technologist, software developer, and systems architect.  So it may be valid to ask what business I have commenting on organizational &amp; business issues at all.  One might argue that these discussions are better left for the MBA folks and Accountants. Fair point, let me first lay out my reasoning around writing an article like this at all. 
 
 ## [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
-<quote>
-  organizations which design systems, are constrained to produce designs which are copies of the communication structures of these organizations. &mdash;Melvin Conway
-</quote>
+> organizations which design systems, are constrained to produce designs which are copies of the communication structures of these organizations.<br/>
+> <em>Melvin Conway</em>
+
 Melvin was a smart person and very influential in the early years of computer science.  If you buy into Conway's law (which I do), it's relatively easy to make the logical leap to the following axiom.
-<quote>
-Organizational and Technical Architecture are inseparable.
-</quote>
+
+<b>Organizational and Technical Architecture are inseparable</b>
+
 While they are not the same thing, I reason that one simple can't have a solid technical architecture without a good organizational architecture, if one is producing technologies within the constraints of an organization.
 
 Thus, I believe that offering my perspective around organization architecture is not only valuable, but a core part of my responsibility as a systems architect and technical leader.
