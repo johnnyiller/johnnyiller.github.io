@@ -20,7 +20,7 @@ Melvin was a smart person and very influential in the early years of computer sc
 
 While they are not the same thing, I reason that one simple can't have a solid technical architecture without a good organizational architecture, if one is producing technologies within the constraints of an organization whose size is greater than that of a single team.
 
-Thus, I believe that offering my perspective around organizational architecture is not only valuable, but a core part of my responsibility to the software development community as a systems architect and technical leader.
+Thus, I believe that offering my perspective around organizational architecture is not only valuable, but a core part of my responsibility as a leader in the technology field.
 
 ## Types of turnover
 
@@ -60,7 +60,7 @@ Both Tuckman and Dalio speak to the idea, that if teams are constantly changing,
 
 ![GroupDynamicsProcess]({{site.url}}/assets/diagrams/teamturnover-color.png)
 
-As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.  When teams are stuck in the earlier stages of development, they are unable to function on their own, and will require much more direction.  If managers are unable to move on to other teams the organization may fail to scale properly as each team will always need a dedicated hands on manager.
+As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.  When teams are stuck in the earlier stages of development, they are unable to function on their own, and will require much more direction.  If managers are unable to move on to other teams, the organization may fail to scale properly, as teams will always need a dedicated hands on manager.  Ideally, managers would be able to manage multiple teams, but may be unable too if teams can't progress to the performing stage.
 
 Adding more people to a team that hasn't reached the performance stage yet, my also result in something known as [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).  The Mythical Man Month states that; adding another person to an already late project will just make it later.  
 
