@@ -90,7 +90,7 @@ The core principle is that it's easier and thus more cost effective to learn new
 
 Tasking a stable team with a new project is much preferred, to breaking up the team, but this too can be disruptive if it's done too often and without solid reasoning.  Moving from half finished project to half finished project can eat up large chunks of a teams time and make them feel like they are never really adding value to the organization.  Most projects have periods of lesser activity; if possible, use slower periods to switch projects if possible as it will be less disruptive and deflating to team moral.
 
-### Hire learner generalists in favor of specialists
+### Hire learning generalists in favor of specialists
 
 Learning generalists can complete many different tasks depending on what the project calls for. They are usually inquisitive by nature, which allows them to quickly pick up skills they might be lacking.  This makes it easy to task a team of generalists with a new project, removing the need to break teams apart in the first place, as project requirements change.  
 
