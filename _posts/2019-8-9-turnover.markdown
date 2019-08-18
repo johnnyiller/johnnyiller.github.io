@@ -6,9 +6,7 @@ comments: true
 categories: Organization Architecture
 ---
 
-Exciting stuff right?  Instinctively folks understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral, where the churn rate, keeps increasing until the organization becomes a revolving door of employees.  
-
-Avoiding turnover, is one of the primary reasons large organizations spend incredible amounts of money and effort trying to retain top talent, and why cultural fit, is important to assess, during the hiring process.  This article is going to focus on some of the sources of employee turnover, and hopefully, offer some advice to companies experiencing the ill effects of turnover's wrath. 
+Exciting stuff right?  Most managers understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral, where the churn rate, keeps increasing until the organization becomes a revolving door of employees.  
 
 First let's level set; I'm a technologist, software developer, and systems architect.  So it may be valid to ask what business I have commenting on organizational &amp; business issues at all.  One might argue that these discussions are better left for the MBA folks and Accountants. Fair point, let me first lay out my reasoning around writing an article like this at all.
 
@@ -90,15 +88,17 @@ Often, it is better to let a high performing teams take complete ownership of a 
 
 The core principle is that it's easier and thus more cost effective to learn new skills, and assimilate them, than it is to assimilate new team members.  Learning new skills is a win for everyone at the company. Conversely, changing teams, and as a result, being forced to go through the stages of group development again is costly and time consuming with no direct payoff for the employee or the organization.
 
+Tasking a stable team with a new project is much preferred, to breaking up the team, but this too can be disruptive if it's done too often and without solid reasoning.  Moving from half finished project to half finished project can eat up large chunks of a teams time and make them feel like they are never really adding value to the organization.  Most projects have periods of lesser activity; if possible, use slower periods to switch projects if possible as it will be less disruptive and deflating to team moral.
+
 ### Hire learner generalists in favor of specialists
 
 Learning generalists can complete many different tasks depending on what the project calls for. They are usually inquisitive by nature, which allows them to quickly pick up skills they might be lacking.  This makes it easy to task a team of generalists with a new project, removing the need to break teams apart in the first place, as project requirements change.  
 
 Generalists will likely have to learn less overall than a team of specialists, since good enough knowledge of a subject is often good enough.  Secondly, because generalists have a wide range of knowledge they will have many common interests with one and other, which will help them socialize and form tighter bonds with each other more quickly (birds of a feather flock together).  
 
-Many of today's tasks in the workplace are tasks of integration not invention.  These types of tasks require folks to process a large amount of information and integrate it into a complete picture.  Generalists tend to be much better at this, as they have a wide palette from which to paint their solutions from.  
+Many of today's tasks in the workplace are tasks of integration, not invention.  These types of tasks require folks to process a large amount of information, socialize it to others, and integrate it into a complete picture.  Generalists tend to be much better at this, as they have a wide palette from which to paint their solutions from.  
 
-Obviously, if you are trying to solve a very specific problem, then it may be worth hiring a specialist but I would advise all hiring managers to consider if a specialist is really needed or if it makes more sense to hire a generalist that could temporarily specialize in the subject area of interest.
+Obviously, if you are trying to solve a very specific problem, then it may be worth hiring a specialist but I would advise all hiring managers to consider if a specialist is really needed or if it makes more sense to hire a generalist that could learn to specialize in the subject area of interest.
 
 ### Hire entire teams
 
@@ -110,10 +110,10 @@ Be careful when purchasing a small startup to make sure a majority of people on 
 
 ### Avoid mixing outsourced with in-sourced
 
-At a very basic level, team members should have aligned incentives.   Without aligned incentives it can be extremely difficult to get team members to work together cohesively.  This can be hard or impossible to achieve in an environment where there are two different classes of employee with different incentive structures and even different bosses, working on the same project.  
+At a very basic level, team members should have aligned incentives.   Without aligned incentives it can be extremely difficult to get team members to work together cohesively.  This can be hard or impossible to achieve in an environment where there are two different classes of employee, with different incentive structures, and different bosses; working on the same project.  
 
 Often in-sourced employees are more permanent than outsourced.  This means that in-sourced employees often want to create things that not only meet today's requirements but also allow for change and the meeting of future requirements.  
 
 Outsourced employees are often tasked with spending only the minimum amount of hours to complete the task they have been assigned, after which, they can be assigned to a new team, project, or even another company altogether.  The turnover of the outsourced employees can throw off they dynamic of the in-sourced employees by causing them to constantly be adapting to new personality types and skill levels.  
 
-The tension can end up leading great employees to seek teams that don't have outsourced team members and when that's not available they may eventually leave the organization altogether.  Either way, the result is increased turnover and lower overall productivity.
+The tension created from this dynamic can end up leading great employees to seek teams that don't have outsourced team members and when that's not available they may eventually leave the organization altogether.  Either way, the result is increased turnover and lower overall productivity.
