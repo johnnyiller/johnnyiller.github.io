@@ -68,7 +68,7 @@ Adding more people to a team that hasn't reached the performance stage yet, reen
 
 The notion that managers can add another person and the project will be completed on time, is a hold out from the industrial age.  In the industrial age, adding another worker to a factory production floor would increase output and help fulfill an order that was running late.  In the knowledge economy, this is no longer true, since communication is at the center of all valuable work being done by the team.  Ultimately, when managers add another person, they increase the communication complexity, reset the team dynamic, and thus, slow the overall team production schedule.
 
-My own take on this subject, is that, years of evolution has conditioned humans to view outsiders as inherently less trustworthy than insiders.  Groups that are frequently having to assimilate new members, have to spend enormous amounts of time building trust, which can slow down the workflow and ultimately lead to even the top performers becoming frustrated.  This frustration will likely lead to top individuals leaving the company, which has widely been documented as an high [expense for companies.](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee).
+My own take on this subject, is that, years of evolution has conditioned humans to view outsiders as inherently less trustworthy than insiders.  Groups that are frequently having to assimilate new members, have to spend enormous amounts of time building trust, which can slow down the workflow and ultimately lead to even the top performers becoming frustrated.  This frustration will likely lead to top individuals leaving the company, which has widely been documented as an high [expense for companies](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee).
 
 To restate the core problem simply: 
 
@@ -116,8 +116,8 @@ Be careful when purchasing a small startup to make sure a majority of people on 
 
 At a very basic level, team members should have aligned incentives.   Without aligned incentives it can be extremely difficult to get team members to work together cohesively.  This can be hard or impossible to achieve in an environment where there are two different classes of employee, with different incentive structures, and different bosses; working on the same project.  
 
-Often in-sourced employees are more permanent than outsourced.  This means that in-sourced employees often want to create things that not only meet today's requirements but also allow for change and the meeting of future requirements.  
+Often in-sourced employees are more permanent than outsourced.  This means that in-sourced employees tend to create solutions that not only meet today's requirements but also allow for change and the meeting of future requirements.  
 
 Outsourced employees are often tasked with spending only the minimum amount of hours to complete the task they have been assigned, after which, they can be assigned to a new team, project, or even another company altogether.  The turnover of the outsourced employees can throw off they dynamic of the in-sourced employees by causing them to constantly be adapting to new personality types and skill levels.  
 
-The tension created from this dynamic can end up leading great employees to seek teams that don't have outsourced team members and when that's not available they may eventually leave the organization altogether.  Either way, the result is increased turnover and lower overall productivity.
+The tension created from this dynamic can end up leading great employees to seek teams that don't have outsourced team members and when that's not available they may eventually leave the organization altogether.  The result is typically, increased turnover and lower overall productivity.
