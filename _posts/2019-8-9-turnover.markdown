@@ -48,7 +48,7 @@ Entire books have been written about reducing external turnover, so I won't bore
 
 ### Internal Turnover
 
-Internal turnover is primarily attributable to chaotic internal struggles, muddy product vision, or even, too much external turnover. Both internal and external turnover turnover are related and reinforcing.  Teams are broken apart and moved around frequently, as management tries to solve a list of real or imagined problems.  This movement of individuals, makes it difficult for teams to reach peak performance. 
+Internal turnover is primarily attributable to chaotic internal struggles, muddy product vision, or even, too much external turnover. Both internal and external turnover are related and reinforcing.  Teams are broken apart and moved around frequently, as management tries to solve a list of real or imagined problems.  This movement of individuals, makes it difficult for teams to reach peak performance. 
 
 Team forming, and cohesion take a lot of time and effort.  [Bruck Tuckman](https://en.wikipedia.org/wiki/Bruce_Tuckman) was a famous psychologist who studied and wrote extensively about group dynamics.  His most notable work, known as [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), identified four key stages of group development that teams typically go through in order to become productive.  The following graphic provides some context around the process.  
 
