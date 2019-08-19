@@ -56,7 +56,7 @@ Team forming, and cohesion take a lot of time and effort.  [Bruck Tuckman](https
 
 ![GroupDynamics]({{ site.url }}/assets/diagrams/TCTC-Forming-Storming.png)
 
-In Ray Dalio's book [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021) he outlines how important it is for teams to get in sync.  His core principle, states that everyone doesn't have to agree with one another, but that everyone does need to understand what's happening and be able to argue for or against it and eventually fall in line when a decision is made.  The relevance of this insight is that if teams are continually changing they can't get in sync, which leads to teams spend all of their time re-litigating things that have already been decided.
+In Ray Dalio's book [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021) he outlines how important it is for teams to get in sync.  His core principle, states that everyone doesn't have to agree with one another, but that everyone does need to understand what's happening and be able to argue for or against it and eventually fall in line when a decision is made.  The relevance of this insight is that if teams are continually changing they can't get in sync, which leads to teams spending all of their time re-litigating things that have already been decided.
 
 Both Tuckman and Dalio speak to the idea, that if teams are constantly changing, they can never reach the performance stage and will be doomed to sub-par performance. To make matters worse, a common "remedy" managers often try to apply to improve teams that have not reached the performance stage, is to try and add more humans, either from within the company, or as new hires.  The result is illustrated in the following diagram.
 
