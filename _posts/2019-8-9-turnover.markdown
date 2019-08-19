@@ -6,7 +6,7 @@ comments: true
 categories: Organizational Architecture
 ---
 
-Most managers understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral.  If left uncorrected, the churn rate keeps increasing until the organization becomes a revolving door of employees.  
+Most managers understand that employee turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral.  If left uncorrected, the churn rate keeps increasing until the organization becomes a revolving door of employees.  
 
 First let's level set; I'm a technologist, software developer, and systems architect.  So it may be valid to ask what business I have commenting on organizational &amp; business issues at all.  One might argue that these discussions are better left for the MBA folks and Accountants. Fair point, let me first lay out my reasoning around writing an article like this at all.
 
