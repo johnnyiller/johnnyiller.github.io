@@ -6,7 +6,7 @@ comments: true
 categories: Organization Architecture
 ---
 
-Exciting stuff right?  Most managers understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral, where the churn rate, keeps increasing until the organization becomes a revolving door of employees.  
+Exciting stuff right?  Most managers understand that turnover can be disruptive and expensive.  The cost to recruit, train, and provide a competitive wage is typically one of an organizations highest costs in the knowledge economy.  Failure to address employee churn and its many different causes can create a downward spiral.  If left uncorrected, the churn rate keeps increasing until the organization becomes a revolving door of employees.  
 
 First let's level set; I'm a technologist, software developer, and systems architect.  So it may be valid to ask what business I have commenting on organizational &amp; business issues at all.  One might argue that these discussions are better left for the MBA folks and Accountants. Fair point, let me first lay out my reasoning around writing an article like this at all.
 
@@ -20,13 +20,13 @@ Melvin was a smart person and very influential in the early years of computer sc
 
 While they are not the same thing, I reason that one simple can't have a solid technical architecture without a good organizational architecture, if one is producing technologies within the constraints of an organization whose size is greater than that of a single team.
 
-Thus, I believe that offering my perspective around organizational architecture is not only valuable, but a core part of my responsibility as a leader in the technology field.
+Thus, I believe that offering my perspective around organizational architecture is not only valuable, but a core part of my responsibility as an aspiring leader in the technology field.
 
 ## Types of turnover
 
-I believe their are at least two types of turnover that commonly occur at any organization.  They are:
+I believe their are at least two types of turnover that commonly occur at any organization.
 1. External
-1. Internal
+1. Internal (primary focus of this post)
 
 ### External
 
@@ -48,23 +48,25 @@ Entire books have been written about reducing external turnover, so I won't bore
 
 ### Internal Turnover
 
-Internal turnover is primarily attributable to chaotic internal struggles, muddy product vision, or even too much external turnover. Both internal and external turnover turnover are related and reinforcing.  Teams are broken apart and moved around frequently, as management tries to solve a list of real or imagined problems.  This movement, makes it difficult for teams to reach peak performance. 
+Internal turnover is primarily attributable to chaotic internal struggles, muddy product vision, or even, too much external turnover. Both internal and external turnover turnover are related and reinforcing.  Teams are broken apart and moved around frequently, as management tries to solve a list of real or imagined problems.  This movement of individuals, makes it difficult for teams to reach peak performance. 
 
-Team forming, and cohesion take a lot of time and effort.  [Bruck Tuckman](https://en.wikipedia.org/wiki/Bruce_Tuckman) was a famous psychologist who studied and wrote extensively about group dynamics.  His most notable work, known as [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), identified four key stages of group development that teams typically go through in order to become productive.  The following graphic provides some context around the process.  Note: you can't skip stages, you must progress linearly.  This means that teams that are constantly changing are constantly being "reset".
+Team forming, and cohesion take a lot of time and effort.  [Bruck Tuckman](https://en.wikipedia.org/wiki/Bruce_Tuckman) was a famous psychologist who studied and wrote extensively about group dynamics.  His most notable work, known as [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), identified four key stages of group development that teams typically go through in order to become productive.  The following graphic provides some context around the process.  
+
+<b>Note: you can't skip stages, you must progress linearly.  This means that teams that are constantly changing are constantly being "reset".</b>
 
 ![GroupDynamics]({{ site.url }}/assets/diagrams/TCTC-Forming-Storming.png)
 
-In Ray Dalio's book [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021) he outlines how important it is for teams to get in sync.  His core principle, states that everyone doesn't have to agree with one another, but that everyone does need to understand what's happening and be able to argue for or against it and eventually fall in line when a decision is made.  The relevance of this insight is that if teams are continually changing it can be next to impossible to get in sync and can thus be impossible to produce anything of lasting value, because teams spend all of their time re-litigating things that have already been decided.
+In Ray Dalio's book [Principles](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021) he outlines how important it is for teams to get in sync.  His core principle, states that everyone doesn't have to agree with one another, but that everyone does need to understand what's happening and be able to argue for or against it and eventually fall in line when a decision is made.  The relevance of this insight is that if teams are continually changing they can't get in sync, which leads to teams spend all of their time re-litigating things that have already been decided.
 
-Both Tuckman and Dalio speak to the idea, that if teams are constantly changing, they can never reach the performance stage and will be doomed to failure. To make matters worse, a common "remedy" managers often try to apply to improve teams that have not reached the performance stage, is to try and add more humans, either from within the company, or as new hires.  The result is illustrated in the following diagram.
+Both Tuckman and Dalio speak to the idea, that if teams are constantly changing, they can never reach the performance stage and will be doomed to sub-par performance. To make matters worse, a common "remedy" managers often try to apply to improve teams that have not reached the performance stage, is to try and add more humans, either from within the company, or as new hires.  The result is illustrated in the following diagram.
 
 ![GroupDynamicsProcess]({{site.url}}/assets/diagrams/teamturnover-color.png)
 
-As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.  When teams are stuck in the earlier stages of development, they are unable to function on their own, and will require much more direction.  If managers are unable to move on to other teams, the organization may fail to scale properly, as teams will always need a dedicated hands on manager.  Ideally, managers would be able to manage multiple teams, but may be unable too if teams can't progress to the performing stage.
+As you can see, the addition of new team members over time could have the result of keeping the team locked in a constant state of <b>forming</b>.  When teams are stuck in the earlier stages of development, they are unable to function on their own, and will require much more direction.  If managers are unable to move on to other teams, the organization may fail to scale properly.  Teams that never reach the performance stage, will always need a dedicated hands on manager.  Ideally, managers would be able to manage multiple teams, but may be unable too if teams can't progress to the performing stage.
 
-Adding more people to a team that hasn't reached the performance stage yet, my also result in something known as [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).  The Mythical Man Month states that; adding another person to an already late project will just make it later.  
+Adding more people to a team that hasn't reached the performance stage yet, reenforces a concept known as [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).  The Mythical Man Month states that; adding another person to an already late project will just make it later.  
 
-The notion that you can just add another person and the project will be completed on time, is a hold out from the industrial age.  In the industrial age, adding another worker to a factory production floor would increase output and help fulfill an order that was running late.  In the knowledge economy, this is no longer true, since communication is at the center of all valuable work being done by the team.  Ultimately, when managers add another person, they increase the communication complexity and thus slow the overall team down, preventing the team from reaching the performance stage, and completing the project.
+The notion that managers can add another person and the project will be completed on time, is a hold out from the industrial age.  In the industrial age, adding another worker to a factory production floor would increase output and help fulfill an order that was running late.  In the knowledge economy, this is no longer true, since communication is at the center of all valuable work being done by the team.  Ultimately, when managers add another person, they increase the communication complexity, reset the team dynamic, and thus, slow the overall team production schedule.
 
 My own take on this subject, is that, years of evolution has conditioned humans to view outsiders as inherently less trustworthy than insiders.  Groups that are frequently having to assimilate new members, have to spend enormous amounts of time building trust, which can slow down the workflow and ultimately lead to even the top performers becoming frustrated.  This frustration will likely lead to top individuals leaving the company, which has widely been documented as an high [expense for companies.](https://www.peoplekeep.com/blog/bid/312123/employee-retention-the-real-cost-of-losing-an-employee).
 
@@ -72,23 +74,25 @@ To restate the core problem simply:
 
 <b>If teams are changing membership frequently, the team will never reach peak performance, leading to top performers jumping ship, which will doom the organization to a lifetime of substandard results.</b>
 
+Hopefully, the following graphic will help illustrate how all this movement can disrupt a teams ability to perform.
+
 ![GroupCycleDynamics]({{site.url}}/assets/diagrams/team_dynamics.png)
 
-Hopefully, I've convinced you that high <b>internal turnover</b> is a real thing and when it's high, it can cost organizations dearly in the form of increased external turnover and sub-par team performance.  If you do not agree with my premise, you may stop reading here, I won't be offended.
+With luck, I've convinced you that high <b>internal turnover</b> is a real thing and when it's high, it can cost organizations dearly in the form of increased external turnover and sub-par team performance.  If you do not agree with my premise, you may stop reading here, I won't be offended.
 
 ![HowFar]({{site.url}}/assets/diagrams/bluepillredpill.png)
 
-If you are reading this sentence, I'll assume you'd like a few pointers on how to limit <b>internal turnover</b> and see your organization thrive.  This list isn't meant to be exhaustive so please feel free to leave a comment, if you think of other ways to reduce internal turnover rates.
+If you are reading this sentence, I'll assume you'd like a few pointers on how to limit <b>internal turnover</b> to help your teams become more productive.  This list isn't meant to be exhaustive so please feel free to leave a comment, if you think of other ways to reduce internal turnover rates.
 
 ## Tips for reducing Internal Turnover
 
 ### Change Projects not teams
 
-Often, it is better to let a high performing teams take complete ownership of a new project than it is to try and stitch together a new team for a new project.  Often this will lead to some members of the team having less than perfect skills for the new project.  This should be viewed as a growth opportunity for those individuals and they should be required to learn the new skills.  This style of team development is at the core of the agile development process.  Teams adjust the project requirements and their skillset over time rather adjusting the personnel.
+Often, it is better to let a high performing teams take complete ownership of a new project than it is to try and stitch together a new team for a new project.  Reassigning teams will lead to some members of the team having less than perfect skills for the new project.  This should be viewed as a growth opportunity for those individuals and they should be required to learn the new skills.  Iterative learning, is at the core of the agile development process which has been shown to be an effective way to improve team output.  The strategy for success, is for teams to adjust the project requirements and their skillset over time rather adjusting team composition.
 
 The core principle is that it's easier and thus more cost effective to learn new skills, and assimilate them, than it is to assimilate new team members.  Learning new skills is a win for everyone at the company. Conversely, changing teams, and as a result, being forced to go through the stages of group development again is costly and time consuming with no direct payoff for the employee or the organization.
 
-Tasking a stable team with a new project is much preferred, to breaking up the team, but this too can be disruptive if it's done too often and without solid reasoning.  Moving from half finished project to half finished project can eat up large chunks of a teams time and make them feel like they are never really adding value to the organization.  Most projects have periods of lesser activity; if possible, use slower periods to switch projects if possible as it will be less disruptive and deflating to team moral.
+Tasking a stable team with a new project is much preferred, to breaking up the team, but reassignments can also be disruptive if it's done too often and without solid reasoning.  Moving from half finished project to half finished project can eat up large chunks of a teams time and make them feel like they are never really adding value to the organization.  In my experience, most projects have periods of lesser activity; if possible, use slower periods to switch projects if possible as it will be less disruptive and deflating to team moral.
 
 ### Hire learning generalists in favor of specialists
 
