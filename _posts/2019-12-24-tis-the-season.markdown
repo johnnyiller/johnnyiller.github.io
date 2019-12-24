@@ -25,7 +25,9 @@ Having a deep sense of empathy and thus a deep sense of responsibility to the pe
 
 If one repeats this pattern enough times, a lack of empathy will quickly devolve into a nightmare work environment.
 
-As a developer you might be wondering about what you can do to break the sociopathic cycle and introduce more empathy into your codebase.  In the spirit  of Christmas, my gift to my readers, is a list of my favorite things for showing software project empathy.  When I encounter a codebase that does all of the following things, that codebase just screams *I CARE ABOUT YOU, ME, AND OUR CUSTOMERS*.
+As a developer you might be wondering about what you can do to break the sociopathic cycle and introduce more empathy into your codebase.  In the spirit  of Christmas, my gift to my readers, is a list of my favorite things for showing software project empathy.  When I encounter a codebase that does all of the following things, that codebase just screams: 
+
+*I CARE ABOUT YOU, MYSELF, AND OUR CUSTOMERS*.
 
 # Test your code
 
