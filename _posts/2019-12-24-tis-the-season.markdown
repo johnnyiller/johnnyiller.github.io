@@ -142,7 +142,7 @@ This is something I am a firm believer in and I believe shows great empathy for 
 
 If you extend an interface without breaking existing functionality, you remove the burden of someone using your software interface having to write special integrations into their codebase.  Recently, my team wrote a common logger that is now being used across the organization.  
 
-I believe that the reason it was adopted so readily by teams is that the interface remained that of the standard logging library while only changing the output as required by our logging specification.  Had we not created this shared module with a stable know interface, every project would have to implement the interface individually wasting weeks of time or worse they spec would be ignored altogether.
+I believe that the reason it was adopted so readily by teams is that the interface remained that of the standard logging library while only changing the output as required by our logging specification.  Had we not created this shared module with a stable known interface, every project would have to implement the interface individually wasting weeks of time or worse they spec would be ignored altogether.
 
 As another example, my team is currently developing a solution that we can use to proxy to 3rd party API's while extending functionality where it makes sense. The result to developers is that they will be able to use their existing tools to interface with our API and we'll be able to add value as appropriate.
 
@@ -215,7 +215,7 @@ output = greeting(["Jeff", "Durand"])
 print(output)
 ```
 
-A codebase that passes around a bunch of loosely understood data-structures would quickly drive other developers crazy.  This craziness could end in any number of ways, but I'd like to think named parameters helped the next developer looking at it avoid a lifetime of isolation and alcoholism after slowly losing ones mind.
+A codebase that passes around a bunch of loosely understood data-structures would quickly drive other developers crazy.  This craziness could end in any number of ways, but I'd like to think named parameters helped the next developer looking at it avoid a lifetime of isolation and alcoholism after slowly losing her mind.
 
 # Avoid long Regular expressions
 
