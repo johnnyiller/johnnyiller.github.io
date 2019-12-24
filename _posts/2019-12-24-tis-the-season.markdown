@@ -69,7 +69,7 @@ class Foo:
         return(a + b)
 ```
 
-Along these same lines, use variable names for magic numbers and strings.  For example, the following code requires the reader to understand what the number 12 means.
+Along these same lines, use variable names for magic numbers and strings.  For example, the following code requires the reader to understand what the number 25 means.
 
 ```python
 def run():
