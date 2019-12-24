@@ -97,7 +97,7 @@ This is tricky and taken to an extreme, writing less code can make your code unr
 2. Write idiomatic code that takes advantage of the standard library.
 3. Use stable managed services instead of rolling your own (using stable managed services also shows empathy to operations folks)
 
-### Example of non-idiomatic ruby
+#### Example of non-idiomatic ruby
 ```ruby
 data=[1,2,3,4]
 
@@ -110,7 +110,7 @@ def square_list(d)
 end
 ```
 
-### Example of idiomatic ruby
+#### Example of idiomatic ruby
 
 This second example is easier to understand and simpler to maintain.
 
