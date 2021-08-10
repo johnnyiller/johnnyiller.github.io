@@ -8,7 +8,7 @@ categories: management technology engineering
 
 ![Organizational Chart]({{ site.url }}/assets/it_org_chart.jpg)
 
-ISoftware systems mirror a leaky boat in many ways.  Most folks in the IT organization are trying to reduce and remove the risk that the boat will sink and all its occupants will meet their demise (software fails to meet objectives).  
+Software systems mirror a leaky boat in many ways.  Most folks in the IT organization are trying to reduce and remove the risk that the boat will sink and all its occupants will meet their demise (software fails to meet objectives).  
 
 I imagine this analogy has been used before in other contexts, or perhaps even this exact one, but I'm a bit too lazy to go digging through the interwebs for prior work. So for the sake of this article, let's just assume this is the first time you've heard such an analogy.
 
