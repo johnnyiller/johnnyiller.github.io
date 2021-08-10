@@ -59,7 +59,7 @@ The following is a very basic example with nice round numbers to illustrate how 
 | can't change      | 0.5             | $600,000            | $300,000    |
 | disrupted         | 0.05            | $5,000,000          | $250,000    |
 
-Depending on how these numbers change from year to year a company might look to rebalance its labor pool.  For example if downtime became even more expensive and more frequent you'd likely want to increase staff levels to mitigate the impact.
+Depending on how these numbers change from year to year a company might look to rebalance its labor pool.  For example, if downtime became even more expensive and  frequent, you'd likely want to increase staff levels to mitigate the impact.
 
 Given our cost analysis we might end up with the following allocation.
 
