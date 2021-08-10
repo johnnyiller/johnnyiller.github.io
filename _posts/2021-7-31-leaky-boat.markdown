@@ -20,7 +20,7 @@ Technical organizations may want to consider risk assessment as a primary driver
 
 ## Deeper dive
 
-Broadly speaking, IT professionals tend to fall into 1 of 4 groups as illustrated in my highly sophisticated stick figure diagram at the top of this article.  To simplify things, I am am focusing on engineering, because it is the department I have the most experience with.
+Broadly speaking, IT professionals tend to fall into 1 of 4 groups as illustrated in my highly sophisticated stick figure diagram at the top of this article.  To simplify things, I'm focusing on engineering, because it is the department I have the most experience with.
 
 While there is a ton of nuance within a particular job role, I'm going to focus on how each group typically views risk and then suggest a portfolio based approach to managing that risk.
 
